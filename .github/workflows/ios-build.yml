@@ -54,13 +54,13 @@ jobs:
         run: |
           cd apps/ios
           set -euo pipefail
-          
+
           # Get team ID
           TEAM_ID="${IOS_DEVELOPMENT_TEAM:-}"
           if [ -z "$TEAM_ID" ]; then
             TEAM_ID=$(bash ../../scripts/ios-team-id.sh 2>/dev/null || echo "")
           fi
-          
+
           if [ -z "$TEAM_ID" ]; then
             echo "Warning: Could not determine team ID, using automatic signing"
             SIGNING_ARGS="-allowProvisioningUpdates"
@@ -68,7 +68,7 @@ jobs:
             echo "Using team ID: $TEAM_ID"
             SIGNING_ARGS="DEVELOPMENT_TEAM=$TEAM_ID -allowProvisioningUpdates"
           fi
-          
+
           # Build for testing (ad-hoc distribution)
           xcodebuild archive \
             -project OpenClaw.xcodeproj \
@@ -79,7 +79,7 @@ jobs:
             $SIGNING_ARGS \
             CODE_SIGN_STYLE=Automatic \
             CODE_SIGN_IDENTITY="Apple Development"
-          
+
           # Export IPA
           xcodebuild -exportArchive \
             -archivePath "$RUNNER_TEMP/OpenClaw.xcarchive" \
