@@ -8,10 +8,19 @@ export const SessionLabelString = Type.String({
   maxLength: SESSION_LABEL_MAX_LENGTH,
 });
 
-export const GatewayClientIdSchema = Type.Union(
-  Object.values(GATEWAY_CLIENT_IDS).map((value) => Type.Literal(value)),
-);
+// NOTE: Using Type.Unsafe with enum instead of Type.Union([Type.Literal(...)])
+// because some JSON schema validators (including iOS) reject anyOf schemas.
+// This pattern is required for gateway client schemas to work with mobile apps.
+export const GatewayClientIdSchema = Type.Unsafe<
+  (typeof GATEWAY_CLIENT_IDS)[keyof typeof GATEWAY_CLIENT_IDS]
+>({
+  type: "string",
+  enum: Object.values(GATEWAY_CLIENT_IDS),
+});
 
-export const GatewayClientModeSchema = Type.Union(
-  Object.values(GATEWAY_CLIENT_MODES).map((value) => Type.Literal(value)),
-);
+export const GatewayClientModeSchema = Type.Unsafe<
+  (typeof GATEWAY_CLIENT_MODES)[keyof typeof GATEWAY_CLIENT_MODES]
+>({
+  type: "string",
+  enum: Object.values(GATEWAY_CLIENT_MODES),
+});
