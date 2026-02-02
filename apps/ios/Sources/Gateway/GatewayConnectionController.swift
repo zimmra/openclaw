@@ -206,6 +206,7 @@ final class GatewayConnectionController {
     {
         guard let appModel else { return }
         let connectOptions = self.makeConnectOptions()
+        let operatorConnectOptions = self.makeOperatorConnectOptions()
 
         Task { [weak self] in
             guard let self else { return }
@@ -218,7 +219,8 @@ final class GatewayConnectionController {
                 tls: tls,
                 token: token,
                 password: password,
-                connectOptions: connectOptions)
+                connectOptions: connectOptions,
+                operatorConnectOptions: operatorConnectOptions)
         }
     }
 
@@ -285,6 +287,21 @@ final class GatewayConnectionController {
             permissions: [:],
             clientId: "openclaw-ios",
             clientMode: "node",
+            clientDisplayName: displayName)
+    }
+
+    private func makeOperatorConnectOptions() -> GatewayConnectOptions {
+        let defaults = UserDefaults.standard
+        let displayName = self.resolvedDisplayName(defaults: defaults)
+
+        return GatewayConnectOptions(
+            role: "operator",
+            scopes: [],
+            caps: [],
+            commands: [],
+            permissions: [:],
+            clientId: "openclaw-control-ui",
+            clientMode: "ui",
             clientDisplayName: displayName)
     }
 

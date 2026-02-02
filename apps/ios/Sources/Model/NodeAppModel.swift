@@ -26,7 +26,9 @@ final class NodeAppModel {
     var mainSessionKey: String = "main"
 
     private let gateway = GatewayNodeSession()
+    private let operatorGateway = GatewayNodeSession()
     private var gatewayTask: Task<Void, Never>?
+    private var operatorGatewayTask: Task<Void, Never>?
     private var voiceWakeSyncTask: Task<Void, Never>?
     @ObservationIgnored private var cameraHUDDismissTask: Task<Void, Never>?
     let voiceWake = VoiceWakeManager()
@@ -35,7 +37,9 @@ final class NodeAppModel {
     private var lastAutoA2uiURL: String?
 
     private var gatewayConnected = false
+    private var operatorGatewayConnected = false
     var gatewaySession: GatewayNodeSession { self.gateway }
+    var operatorGatewaySession: GatewayNodeSession { self.operatorGateway }
 
     var cameraHUDText: String?
     var cameraHUDKind: CameraHUDKind?
@@ -55,7 +59,7 @@ final class NodeAppModel {
 
         let enabled = UserDefaults.standard.bool(forKey: "voiceWake.enabled")
         self.voiceWake.setEnabled(enabled)
-        self.talkMode.attachGateway(self.gateway)
+        self.talkMode.attachGateway(self.operatorGateway)
         let talkEnabled = UserDefaults.standard.bool(forKey: "talk.enabled")
         self.talkMode.setEnabled(talkEnabled)
 
@@ -209,14 +213,17 @@ final class NodeAppModel {
         tls: GatewayTLSParams?,
         token: String?,
         password: String?,
-        connectOptions: GatewayConnectOptions)
+        connectOptions: GatewayConnectOptions,
+        operatorConnectOptions: GatewayConnectOptions)
     {
         self.gatewayTask?.cancel()
+        self.operatorGatewayTask?.cancel()
         self.gatewayServerName = nil
         self.gatewayRemoteAddress = nil
         let id = gatewayStableID.trimmingCharacters(in: .whitespacesAndNewlines)
         self.connectedGatewayID = id.isEmpty ? url.absoluteString : id
         self.gatewayConnected = false
+        self.operatorGatewayConnected = false
         self.voiceWakeSyncTask?.cancel()
         self.voiceWakeSyncTask = nil
         let sessionBox = tls.map { WebSocketSessionBox(session: GatewayTLSPinningSession(params: $0)) }
@@ -253,8 +260,6 @@ final class NodeAppModel {
                                     self.gatewayRemoteAddress = addr
                                 }
                             }
-                            await self.refreshBrandingFromGateway()
-                            await self.startVoiceWakeSync()
                             await self.showA2UIOnConnectIfNeeded()
                         },
                         onDisconnected: { [weak self] reason in
@@ -311,19 +316,77 @@ final class NodeAppModel {
                 self.showLocalCanvasOnDisconnect()
             }
         }
+
+        self.operatorGatewayTask = Task {
+            var attempt = 0
+            while !Task.isCancelled {
+                do {
+                    try await self.operatorGateway.connect(
+                        url: url,
+                        token: token,
+                        password: password,
+                        connectOptions: operatorConnectOptions,
+                        sessionBox: sessionBox,
+                        onConnected: { [weak self] in
+                            guard let self else { return }
+                            await MainActor.run {
+                                self.operatorGatewayConnected = true
+                            }
+                            await self.refreshBrandingFromGateway()
+                            await self.startVoiceWakeSync()
+                        },
+                        onDisconnected: { [weak self] _ in
+                            guard let self else { return }
+                            await MainActor.run {
+                                self.operatorGatewayConnected = false
+                            }
+                        },
+                        onInvoke: { req in
+                            BridgeInvokeResponse(
+                                id: req.id,
+                                ok: false,
+                                error: OpenClawNodeError(
+                                    code: .unavailable,
+                                    message: "UNAVAILABLE: operator session does not handle invokes"))
+                        })
+
+                    if Task.isCancelled { break }
+                    attempt = 0
+                    try? await Task.sleep(nanoseconds: 1_000_000_000)
+                } catch {
+                    if Task.isCancelled { break }
+                    attempt += 1
+                    await MainActor.run {
+                        self.operatorGatewayConnected = false
+                    }
+                    let sleepSeconds = min(8.0, 0.5 * pow(1.7, Double(attempt)))
+                    try? await Task.sleep(nanoseconds: UInt64(sleepSeconds * 1_000_000_000))
+                }
+            }
+
+            await MainActor.run {
+                self.operatorGatewayConnected = false
+            }
+        }
     }
 
     func disconnectGateway() {
         self.gatewayTask?.cancel()
         self.gatewayTask = nil
+        self.operatorGatewayTask?.cancel()
+        self.operatorGatewayTask = nil
         self.voiceWakeSyncTask?.cancel()
         self.voiceWakeSyncTask = nil
-        Task { await self.gateway.disconnect() }
+        Task {
+            await self.gateway.disconnect()
+            await self.operatorGateway.disconnect()
+        }
         self.gatewayStatusText = "Offline"
         self.gatewayServerName = nil
         self.gatewayRemoteAddress = nil
         self.connectedGatewayID = nil
         self.gatewayConnected = false
+        self.operatorGatewayConnected = false
         self.seamColorHex = nil
         if !SessionKey.isCanonicalMainSessionKey(self.mainSessionKey) {
             self.mainSessionKey = "main"
@@ -361,7 +424,7 @@ final class NodeAppModel {
 
     private func refreshBrandingFromGateway() async {
         do {
-            let res = try await self.gateway.request(method: "config.get", paramsJSON: "{}", timeoutSeconds: 8)
+            let res = try await self.operatorGateway.request(method: "config.get", paramsJSON: "{}", timeoutSeconds: 8)
             guard let json = try JSONSerialization.jsonObject(with: res) as? [String: Any] else { return }
             guard let config = json["config"] as? [String: Any] else { return }
             let ui = config["ui"] as? [String: Any]
@@ -392,7 +455,7 @@ final class NodeAppModel {
         else { return }
 
         do {
-            _ = try await self.gateway.request(method: "voicewake.set", paramsJSON: json, timeoutSeconds: 12)
+            _ = try await self.operatorGateway.request(method: "voicewake.set", paramsJSON: json, timeoutSeconds: 12)
         } catch {
             // Best-effort only.
         }
@@ -405,7 +468,7 @@ final class NodeAppModel {
 
             await self.refreshWakeWordsFromGateway()
 
-            let stream = await self.gateway.subscribeServerEvents(bufferingNewest: 200)
+            let stream = await self.operatorGateway.subscribeServerEvents(bufferingNewest: 200)
             for await evt in stream {
                 if Task.isCancelled { return }
                 guard evt.event == "voicewake.changed" else { continue }
@@ -420,7 +483,7 @@ final class NodeAppModel {
 
     private func refreshWakeWordsFromGateway() async {
         do {
-            let data = try await self.gateway.request(method: "voicewake.get", paramsJSON: "{}", timeoutSeconds: 8)
+            let data = try await self.operatorGateway.request(method: "voicewake.get", paramsJSON: "{}", timeoutSeconds: 8)
             guard let triggers = VoiceWakePreferences.decodeGatewayTriggers(from: data) else { return }
             VoiceWakePreferences.saveTriggerWords(triggers)
         } catch {
