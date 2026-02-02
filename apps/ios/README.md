@@ -2,6 +2,16 @@
 
 Internal-only SwiftUI app scaffold.
 
+## GitHub Actions
+
+The iOS app is automatically built via GitHub Actions on push and pull requests. The workflow:
+- Generates the Xcode project with XcodeGen
+- Builds the app for iOS using xcodebuild
+- Creates an .ipa file for testing
+- Uploads the .ipa as a workflow artifact
+
+See `.github/workflows/ios-build.yml` for details.
+
 ## Lint/format (required)
 ```bash
 brew install swiftformat swiftlint
