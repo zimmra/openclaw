@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/master.swiftdeps"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawProtocol/AnyCodable.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/AnyCodable.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/AnyCodable.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/AnyCodable~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/AnyCodable.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/AnyCodable.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawProtocol/GatewayModels.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/GatewayModels.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/GatewayModels.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/GatewayModels~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/GatewayModels.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/GatewayModels.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawProtocol/WizardHelpers.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/WizardHelpers.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/WizardHelpers.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/WizardHelpers~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/WizardHelpers.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawProtocol.build/WizardHelpers.dia"
+  }
+}

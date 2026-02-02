@@ -1,0 +1,61 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/master.swiftdeps"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/ElevenLabsKit/Sources/ElevenLabsKit/AudioToolboxClient.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/AudioToolboxClient.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/AudioToolboxClient.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/AudioToolboxClient~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/AudioToolboxClient.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/AudioToolboxClient.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/ElevenLabsKit/Sources/ElevenLabsKit/ElevenLabsKit.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsKit.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsKit.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsKit~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsKit.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsKit.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/ElevenLabsKit/Sources/ElevenLabsKit/ElevenLabsTTS.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsTTS.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsTTS.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsTTS~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsTTS.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/ElevenLabsTTS.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/ElevenLabsKit/Sources/ElevenLabsKit/PCMPlayerNode.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMPlayerNode.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMPlayerNode.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMPlayerNode~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMPlayerNode.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMPlayerNode.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/ElevenLabsKit/Sources/ElevenLabsKit/PCMStreamingAudioPlayer.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMStreamingAudioPlayer.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMStreamingAudioPlayer.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMStreamingAudioPlayer~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMStreamingAudioPlayer.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/PCMStreamingAudioPlayer.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/ElevenLabsKit/Sources/ElevenLabsKit/StreamingAudioPlayback.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayback.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayback.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayback~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayback.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayback.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/ElevenLabsKit/Sources/ElevenLabsKit/StreamingAudioPlayer.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayer.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayer.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayer~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayer.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/StreamingAudioPlayer.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/ElevenLabsKit/Sources/ElevenLabsKit/TalkTTSValidation.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/TalkTTSValidation.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/TalkTTSValidation.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/TalkTTSValidation~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/TalkTTSValidation.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/ElevenLabsKit.build/TalkTTSValidation.dia"
+  }
+}

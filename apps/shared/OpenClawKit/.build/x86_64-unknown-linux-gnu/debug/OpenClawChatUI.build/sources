@@ -1,0 +1,13 @@
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/AssistantTextParser.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatComposer.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatMarkdownPreprocessor.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatMarkdownRenderer.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatMessageViews.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatModels.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatPayloadDecoding.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatSessions.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatSheets.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatTheme.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatTransport.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatView.swift
+/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatViewModel.swift

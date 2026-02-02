@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/master.swiftdeps"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.derived/OpenClawKitTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/OpenClawKitTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/OpenClawKitTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/OpenClawKitTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/OpenClawKitTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/OpenClawKitTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.derived/all-discovered-tests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/all-discovered-tests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/all-discovered-tests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/all-discovered-tests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/all-discovered-tests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageDiscoveredTests.build/all-discovered-tests.dia"
+  }
+}

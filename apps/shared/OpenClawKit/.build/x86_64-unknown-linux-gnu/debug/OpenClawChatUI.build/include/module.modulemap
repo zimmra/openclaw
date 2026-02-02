@@ -1,0 +1,3 @@
+module OpenClawChatUI {
+    header "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawChatUI.build/include/OpenClawChatUI-Swift.h"
+}

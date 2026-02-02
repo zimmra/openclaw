@@ -1,0 +1,110 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/master.swiftdeps"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/AssistantTextParserTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/AssistantTextParserTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/AssistantTextParserTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/AssistantTextParserTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/AssistantTextParserTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/AssistantTextParserTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/BonjourEscapesTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/BonjourEscapesTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/BonjourEscapesTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/BonjourEscapesTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/BonjourEscapesTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/BonjourEscapesTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/CanvasA2UIActionTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UIActionTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UIActionTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UIActionTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UIActionTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UIActionTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/CanvasA2UITests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UITests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UITests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UITests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UITests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasA2UITests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/CanvasSnapshotFormatTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasSnapshotFormatTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasSnapshotFormatTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasSnapshotFormatTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasSnapshotFormatTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/CanvasSnapshotFormatTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/ChatMarkdownPreprocessorTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatMarkdownPreprocessorTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatMarkdownPreprocessorTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatMarkdownPreprocessorTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatMarkdownPreprocessorTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatMarkdownPreprocessorTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/ChatThemeTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatThemeTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatThemeTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatThemeTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatThemeTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatThemeTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/ChatViewModelTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatViewModelTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatViewModelTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatViewModelTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatViewModelTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ChatViewModelTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/ElevenLabsTTSValidationTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ElevenLabsTTSValidationTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ElevenLabsTTSValidationTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ElevenLabsTTSValidationTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ElevenLabsTTSValidationTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ElevenLabsTTSValidationTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/GatewayNodeSessionTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/GatewayNodeSessionTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/GatewayNodeSessionTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/GatewayNodeSessionTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/GatewayNodeSessionTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/GatewayNodeSessionTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/JPEGTranscoderTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/JPEGTranscoderTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/JPEGTranscoderTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/JPEGTranscoderTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/JPEGTranscoderTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/JPEGTranscoderTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/TalkDirectiveTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkDirectiveTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkDirectiveTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkDirectiveTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkDirectiveTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkDirectiveTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/TalkHistoryTimestampTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkHistoryTimestampTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkHistoryTimestampTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkHistoryTimestampTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkHistoryTimestampTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkHistoryTimestampTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/TalkPromptBuilderTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkPromptBuilderTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkPromptBuilderTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkPromptBuilderTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkPromptBuilderTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/TalkPromptBuilderTests.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/Tests/OpenClawKitTests/ToolDisplayRegistryTests.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ToolDisplayRegistryTests.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ToolDisplayRegistryTests.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ToolDisplayRegistryTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ToolDisplayRegistryTests.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitTests.build/ToolDisplayRegistryTests.dia"
+  }
+}

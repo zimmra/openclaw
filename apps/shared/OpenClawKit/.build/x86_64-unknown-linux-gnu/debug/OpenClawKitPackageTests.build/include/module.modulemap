@@ -1,0 +1,3 @@
+module OpenClawKitPackageTests {
+    header "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKitPackageTests.build/include/OpenClawKitPackageTests-Swift.h"
+}

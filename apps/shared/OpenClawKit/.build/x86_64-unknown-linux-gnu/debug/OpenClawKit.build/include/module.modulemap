@@ -1,0 +1,3 @@
+module OpenClawKit {
+    header "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/OpenClawKit.build/include/OpenClawKit-Swift.h"
+}

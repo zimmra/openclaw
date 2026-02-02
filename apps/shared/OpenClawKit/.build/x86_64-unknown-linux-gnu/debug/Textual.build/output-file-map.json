@@ -1,0 +1,1356 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/master.swiftdeps"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Attachment/Attachment.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Attachment.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Attachment.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Attachment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Attachment.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Attachment.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Attachment/AttachmentLoader.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentLoader.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentLoader.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentLoader~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentLoader.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentLoader.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Attachment/ResourceAttachmentLoader.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResourceAttachmentLoader.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResourceAttachmentLoader.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResourceAttachmentLoader~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResourceAttachmentLoader.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResourceAttachmentLoader.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Attachment/URLAttachmentLoader.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/URLAttachmentLoader.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/URLAttachmentLoader.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/URLAttachmentLoader~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/URLAttachmentLoader.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/URLAttachmentLoader.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/ColorEnvironmentValues.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ColorEnvironmentValues.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ColorEnvironmentValues.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ColorEnvironmentValues~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ColorEnvironmentValues.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ColorEnvironmentValues.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Deprecations.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Deprecations.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Deprecations.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Deprecations~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Deprecations.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Deprecations.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/DynamicColor.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/EmojiProperties.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiProperties.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiProperties.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiProperties~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiProperties.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiProperties.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/FontScaled.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaled.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaled.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaled~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaled.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaled.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/InlineText/InlineStyle+Default.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+Default.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+Default.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+Default~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+Default.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+Default.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/InlineText/InlineStyle+GitHub.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+GitHub.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+GitHub.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+GitHub~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+GitHub.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle+GitHub.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/InlineText/InlineStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/InlineText/InlineText.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineText.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineText.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineText~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineText.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/InlineText.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Attachment/AttachmentAttribute.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentAttribute.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentAttribute.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentAttribute~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentAttribute.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentAttribute.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Attachment/AttachmentOverlay.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentOverlay.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentOverlay.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentOverlay~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentOverlay.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentOverlay.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Attachment/AttachmentView.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentView.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentView.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentView~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentView.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttachmentView.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Attachment/EmojiAttachment.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiAttachment.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiAttachment.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiAttachment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiAttachment.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiAttachment.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Attachment/EmojiResourceAttachment.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiResourceAttachment.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiResourceAttachment.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiResourceAttachment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiResourceAttachment.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmojiResourceAttachment.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Attachment/ImageAttachment.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageAttachment.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageAttachment.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageAttachment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageAttachment.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageAttachment.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Attachment/ImageResourceAttachment.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageResourceAttachment.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageResourceAttachment.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageResourceAttachment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageResourceAttachment.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageResourceAttachment.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Attachment/MathAttachment.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathAttachment.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathAttachment.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathAttachment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathAttachment.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathAttachment.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Attachment/WithAttachments.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithAttachments.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithAttachments.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithAttachments~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithAttachments.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithAttachments.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/AnyFontProvider+Font.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider+Font.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider+Font.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider+Font~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider+Font.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider+Font.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/AnyFontProvider.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AnyFontProvider.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/FontModifier.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifier.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifier.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifier~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifier.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifier.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/FontModifierProvider.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifierProvider.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifierProvider.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifierProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifierProvider.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontModifierProvider.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/FontProvider.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProvider.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProvider.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProvider.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProvider.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/FontScaleModifier.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleModifier.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleModifier.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleModifier~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleModifier.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleModifier.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/NamedFontProvider.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NamedFontProvider.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NamedFontProvider.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NamedFontProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NamedFontProvider.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NamedFontProvider.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/PlatformFont.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFont.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFont.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFont~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFont.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFont.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/PlatformFontProvider.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFontProvider.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFontProvider.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFontProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFontProvider.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformFontProvider.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/StaticFontModifierProvider.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StaticFontModifierProvider.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StaticFontModifierProvider.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StaticFontModifierProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StaticFontModifierProvider.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StaticFontModifierProvider.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/SystemFontProvider.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SystemFontProvider.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SystemFontProvider.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SystemFontProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SystemFontProvider.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SystemFontProvider.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/TextStyleFontProvider.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextStyleFontProvider.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextStyleFontProvider.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextStyleFontProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextStyleFontProvider.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextStyleFontProvider.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Font/WithFontScaledValue.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithFontScaledValue.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithFontScaledValue.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithFontScaledValue~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithFontScaledValue.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithFontScaledValue.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Formatting/Formatter+HTML.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+HTML.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+HTML.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+HTML~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+HTML.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+HTML.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Formatting/Formatter+PlainText.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+PlainText.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+PlainText.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+PlainText~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+PlainText.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter+PlainText.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Formatting/Formatter.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Formatter.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Formatting/TransferableText.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TransferableText.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TransferableText.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TransferableText~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TransferableText.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TransferableText.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/Array.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Array.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Array.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Array~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Array.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Array.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/AttributedString.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedString.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedString.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedString~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedString.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedString.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/Box.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Box.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Box.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Box~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Box.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Box.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/Bundle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Bundle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Bundle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Bundle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Bundle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Bundle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/CGImage+PNGData.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CGImage+PNGData.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CGImage+PNGData.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CGImage+PNGData~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CGImage+PNGData.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CGImage+PNGData.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/Logger.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Logger.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Logger.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Logger.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Logger.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/PlatformImage.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformImage.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformImage.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformImage~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformImage.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PlatformImage.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/Range.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Range.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Range.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Range~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Range.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Range.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/Tuple.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Tuple.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Tuple.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Tuple~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Tuple.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Tuple.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Helpers/VerticalAlignment+FirstTextCenter.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/VerticalAlignment+FirstTextCenter.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/VerticalAlignment+FirstTextCenter.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/VerticalAlignment+FirstTextCenter~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/VerticalAlignment+FirstTextCenter.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/VerticalAlignment+FirstTextCenter.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Highlighter/CodeTokenizer.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeTokenizer.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeTokenizer.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeTokenizer~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeTokenizer.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeTokenizer.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Highlighter/HighlightedTextFragment.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlightedTextFragment.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlightedTextFragment.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlightedTextFragment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlightedTextFragment.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlightedTextFragment.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Image/Image.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Image.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Image.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Image~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Image.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Image.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Image/ImageLoader.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageLoader.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageLoader.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageLoader~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageLoader.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageLoader.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/Image/ImageView.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageView.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageView.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageView~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageView.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ImageView.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/InlineText/WithInlineStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithInlineStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithInlineStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithInlineStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithInlineStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/WithInlineStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/MarkdownParser/Emoji+Preview.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji+Preview.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji+Preview.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji+Preview~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji+Preview.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji+Preview.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/MarkdownParser/PatternProcessor.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternProcessor.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternProcessor.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternProcessor~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternProcessor.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternProcessor.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/MarkdownParser/PatternTokenizer.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternTokenizer.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternTokenizer.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternTokenizer~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternTokenizer.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/PatternTokenizer.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/BlockContent.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockContent.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockContent.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockContent~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockContent.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockContent.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/BlockQuote.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuote.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuote.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuote~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuote.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuote.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/BlockSpacingKey.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacingKey.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacingKey.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacingKey~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacingKey.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacingKey.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/BlockVStack.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockVStack.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockVStack.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockVStack~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockVStack.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockVStack.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/CodeBlock.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlock.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlock.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlock~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlock.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlock.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Heading.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Heading.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Heading.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Heading~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Heading.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Heading.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/ListEnvironment.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListEnvironment.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListEnvironment.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListEnvironment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListEnvironment.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListEnvironment.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/MathBlock.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathBlock.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathBlock.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathBlock~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathBlock.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathBlock.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/MathCodeBlock.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathCodeBlock.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathCodeBlock.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathCodeBlock~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathCodeBlock.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathCodeBlock.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/OrderedList.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedList.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedList.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedList~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedList.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedList.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Paragraph.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Paragraph.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Paragraph.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Paragraph~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Paragraph.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Paragraph.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/OverflowFrameKey.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowFrameKey.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowFrameKey.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowFrameKey~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowFrameKey.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowFrameKey.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedBlockQuoteStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedBlockQuoteStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedBlockQuoteStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedBlockQuoteStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedBlockQuoteStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedBlockQuoteStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedCodeBlockStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedCodeBlockStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedCodeBlockStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedCodeBlockStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedCodeBlockStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedCodeBlockStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedHeadingStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedHeadingStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedHeadingStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedHeadingStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedHeadingStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedHeadingStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedListItemStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedListItemStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedListItemStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedListItemStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedListItemStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedListItemStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedOrderedListMarker.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedOrderedListMarker.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedOrderedListMarker.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedOrderedListMarker~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedOrderedListMarker.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedOrderedListMarker.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedParagraphStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedParagraphStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedParagraphStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedParagraphStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedParagraphStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedParagraphStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedTableCellStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableCellStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableCellStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableCellStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableCellStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableCellStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedTableStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedTableStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedThematicBreakStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedThematicBreakStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedThematicBreakStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedThematicBreakStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedThematicBreakStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedThematicBreakStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Style/ResolvedUnorderedListMarker.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedUnorderedListMarker.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedUnorderedListMarker.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedUnorderedListMarker~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedUnorderedListMarker.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ResolvedUnorderedListMarker.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/Table.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Table.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Table.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Table~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Table.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Table.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/TableCell.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCell.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCell.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCell~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCell.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCell.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/ThematicBreak.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreak.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreak.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreak~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreak.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreak.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/StructuredText/UnorderedList.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedList.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedList.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedList~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedList.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedList.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextFragment/TextBuilder.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextBuilder.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextBuilder.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextBuilder~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextBuilder.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextBuilder.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextFragment/TextFragment.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextFragment.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextFragment.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextFragment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextFragment.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextFragment.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/AppKit/AppKitTextInteractionOverlay.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextInteractionOverlay.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextInteractionOverlay.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextInteractionOverlay~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextInteractionOverlay.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextInteractionOverlay.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/AppKit/AppKitTextSelectionInteraction.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionInteraction.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionInteraction.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionInteraction~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionInteraction.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionInteraction.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/AppKit/AppKitTextSelectionView.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionView.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionView.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionView~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionView.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AppKitTextSelectionView.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/AppKit/NSTextInteractionView.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NSTextInteractionView.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NSTextInteractionView.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NSTextInteractionView~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NSTextInteractionView.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/NSTextInteractionView.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/IndexPath+TextPosition.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/IndexPath+TextPosition.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/IndexPath+TextPosition.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/IndexPath+TextPosition~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/IndexPath+TextPosition.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/IndexPath+TextPosition.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/LayoutDirection+Locale.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LayoutDirection+Locale.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LayoutDirection+Locale.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LayoutDirection+Locale~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LayoutDirection+Locale.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LayoutDirection+Locale.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/LinkAttribute.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LinkAttribute.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LinkAttribute.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LinkAttribute~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LinkAttribute.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LinkAttribute.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/EmptyTextLayoutCollection.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmptyTextLayoutCollection.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmptyTextLayoutCollection.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmptyTextLayoutCollection~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmptyTextLayoutCollection.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/EmptyTextLayoutCollection.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/Layout+Internals.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Layout+Internals.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Layout+Internals.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Layout+Internals~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Layout+Internals.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Layout+Internals.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/LiveTextLayoutCollection.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LiveTextLayoutCollection.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LiveTextLayoutCollection.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LiveTextLayoutCollection~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LiveTextLayoutCollection.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LiveTextLayoutCollection.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/TextLayoutCollection+AttributedStringAccess.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+AttributedStringAccess.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+AttributedStringAccess.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+AttributedStringAccess~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+AttributedStringAccess.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+AttributedStringAccess.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/TextLayoutCollection+Geometry.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Geometry.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Geometry.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Geometry~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Geometry.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Geometry.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/TextLayoutCollection+Positioning.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Positioning.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Positioning.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Positioning~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Positioning.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Positioning.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/TextLayoutCollection+Ranges.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Ranges.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Ranges.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Ranges~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Ranges.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+Ranges.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/TextLayoutCollection+RunSliceTraversal.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+RunSliceTraversal.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+RunSliceTraversal.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+RunSliceTraversal~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+RunSliceTraversal.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+RunSliceTraversal.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/TextLayoutCollection+SelectionRects.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+SelectionRects.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+SelectionRects.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+SelectionRects~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+SelectionRects.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection+SelectionRects.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/TextLayoutCollection.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLayoutCollection.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLayout/View+TextLayoutCollection.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+TextLayoutCollection.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+TextLayoutCollection.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+TextLayoutCollection~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+TextLayoutCollection.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+TextLayoutCollection.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextLinkInteraction.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLinkInteraction.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLinkInteraction.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLinkInteraction~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLinkInteraction.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextLinkInteraction.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextPosition.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPosition.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPosition.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPosition~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPosition.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPosition.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextRange.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRange.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRange.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRange~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRange.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRange.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextSelectionBackground.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionBackground.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionBackground.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionBackground~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionBackground.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionBackground.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextSelectionCoordinator.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionCoordinator.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionCoordinator.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionCoordinator~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionCoordinator.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionCoordinator.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextSelectionInteraction.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionInteraction.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionInteraction.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionInteraction~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionInteraction.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionInteraction.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextSelectionModel.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionModel.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionModel.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionModel~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionModel.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionModel.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/Shared/TextSelectionRect.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRect.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRect.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRect~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRect.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRect.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/UIKit/TextActivityItemSource.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextActivityItemSource.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextActivityItemSource.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextActivityItemSource~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextActivityItemSource.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextActivityItemSource.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/UIKit/TextPositionBox.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPositionBox.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPositionBox.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPositionBox~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPositionBox.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextPositionBox.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/UIKit/TextRangeBox.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRangeBox.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRangeBox.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRangeBox~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRangeBox.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextRangeBox.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/UIKit/TextSelectionRectBox.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRectBox.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRectBox.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRectBox~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRectBox.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextSelectionRectBox.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/UIKit/UIKitTextInteractionOverlay.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextInteractionOverlay.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextInteractionOverlay.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextInteractionOverlay~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextInteractionOverlay.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextInteractionOverlay.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/UIKit/UIKitTextSelectionInteraction.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextSelectionInteraction.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextSelectionInteraction.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextSelectionInteraction~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextSelectionInteraction.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UIKitTextSelectionInteraction.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/UIKit/UITextInteractionView+UITextInput.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInput.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInput.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInput~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInput.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInput.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/UIKit/UITextInteractionView+UITextInputTokenizer.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInputTokenizer.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInputTokenizer.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInputTokenizer~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInputTokenizer.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView+UITextInputTokenizer.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/Internal/TextInteraction/UIKit/UITextInteractionView.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UITextInteractionView.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/MarkdownParser/AttributedStringMarkdownParser.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedStringMarkdownParser.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedStringMarkdownParser.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedStringMarkdownParser~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedStringMarkdownParser.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/AttributedStringMarkdownParser.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/MarkdownParser/Emoji.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Emoji.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/MarkdownParser/SyntaxExtension.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SyntaxExtension.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SyntaxExtension.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SyntaxExtension~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SyntaxExtension.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SyntaxExtension.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/MarkdownParser/TextualAttributes.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualAttributes.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualAttributes.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualAttributes~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualAttributes.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualAttributes.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/MarkupParser.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MarkupParser.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MarkupParser.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MarkupParser~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MarkupParser.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MarkupParser.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/MathProperties.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathProperties.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathProperties.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathProperties~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathProperties.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MathProperties.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/HighlighterTheme/HighlighterTheme+Default.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Default.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Default.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Default~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Default.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Default.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/HighlighterTheme/HighlighterTheme+Plain.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Plain.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Plain.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Plain~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Plain.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme+Plain.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/HighlighterTheme/HighlighterTheme.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HighlighterTheme.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/HighlighterTheme/TokenType.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TokenType.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TokenType.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TokenType~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TokenType.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TokenType.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/StructuredText.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StructuredText.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StructuredText.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StructuredText~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StructuredText.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StructuredText.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/BlockQuoteStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuoteStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuoteStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuoteStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuoteStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockQuoteStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/BlockSpacing.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacing.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacing.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacing~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacing.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockSpacing.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/BlockStyleConfiguration.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockStyleConfiguration.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockStyleConfiguration.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockStyleConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockStyleConfiguration.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BlockStyleConfiguration.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/CodeBlockProxy.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockProxy.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockProxy.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockProxy~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockProxy.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockProxy.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/CodeBlockStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/CodeBlockStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DefaultBlockQuoteStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultBlockQuoteStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultBlockQuoteStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultBlockQuoteStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultBlockQuoteStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultBlockQuoteStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DefaultCodeBlockStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultCodeBlockStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultCodeBlockStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultCodeBlockStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultCodeBlockStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultCodeBlockStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DefaultHeadingStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultHeadingStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultHeadingStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultHeadingStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultHeadingStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultHeadingStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DefaultListItemStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultListItemStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultListItemStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultListItemStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultListItemStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultListItemStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DefaultParagraphStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultParagraphStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultParagraphStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultParagraphStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultParagraphStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultParagraphStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DefaultStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DefaultTableCellStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableCellStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableCellStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableCellStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableCellStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableCellStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DefaultTableStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DefaultTableStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DividerThematicBreakStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DividerThematicBreakStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DividerThematicBreakStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DividerThematicBreakStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DividerThematicBreakStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DividerThematicBreakStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/DynamicColor+Default.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+Default.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+Default.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+Default~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+Default.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+Default.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Default/OverflowTableStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowTableStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowTableStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowTableStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowTableStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OverflowTableStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/GitHub/DynamicColor+GitHub.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+GitHub.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+GitHub.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+GitHub~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+GitHub.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DynamicColor+GitHub.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/GitHub/GitHubBlockQuoteStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubBlockQuoteStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubBlockQuoteStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubBlockQuoteStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubBlockQuoteStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubBlockQuoteStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/GitHub/GitHubCodeBlockStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubCodeBlockStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubCodeBlockStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubCodeBlockStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubCodeBlockStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubCodeBlockStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/GitHub/GitHubHeadingStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubHeadingStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubHeadingStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubHeadingStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubHeadingStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubHeadingStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/GitHub/GitHubParagraphStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubParagraphStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubParagraphStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubParagraphStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubParagraphStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubParagraphStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/GitHub/GitHubStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/GitHub/GitHubTableCellStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableCellStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableCellStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableCellStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableCellStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableCellStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/GitHub/GitHubTableStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubTableStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/GitHub/GitHubThematicBreak.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubThematicBreak.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubThematicBreak.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubThematicBreak~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubThematicBreak.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/GitHubThematicBreak.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/HeadingStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HeadingStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HeadingStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HeadingStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HeadingStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/HeadingStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/ListItemStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListItemStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListItemStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListItemStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListItemStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ListItemStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/OrderedListMarker.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedListMarker.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedListMarker.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedListMarker~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedListMarker.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/OrderedListMarker.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Overflow.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Overflow.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Overflow.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Overflow~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Overflow.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Overflow.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/ParagraphStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ParagraphStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ParagraphStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ParagraphStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ParagraphStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ParagraphStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/Style.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Style.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Style.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Style~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Style.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/Style.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/TableCellStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCellStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCellStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCellStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCellStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableCellStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/TableLayout.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableLayout.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableLayout.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableLayout~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableLayout.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableLayout.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/TableStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TableStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/ThematicBreakStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreakStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreakStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreakStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreakStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ThematicBreakStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/StructuredText/Style/UnorderedListMarker.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedListMarker.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedListMarker.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedListMarker~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedListMarker.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnorderedListMarker.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextEnvironmentValues.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextEnvironmentValues.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextEnvironmentValues.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextEnvironmentValues~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextEnvironmentValues.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextEnvironmentValues.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Color/BackgroundColorProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BackgroundColorProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BackgroundColorProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BackgroundColorProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BackgroundColorProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BackgroundColorProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Color/ForegroundColorProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ForegroundColorProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ForegroundColorProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ForegroundColorProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ForegroundColorProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ForegroundColorProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/BoldProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BoldProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BoldProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BoldProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BoldProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BoldProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/FontLeadingProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontLeadingProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontLeadingProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontLeadingProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontLeadingProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontLeadingProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/FontProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/FontScaleProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontScaleProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/FontWeightProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWeightProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWeightProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWeightProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWeightProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWeightProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/FontWidthProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWidthProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWidthProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWidthProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWidthProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/FontWidthProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/ItalicProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ItalicProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ItalicProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ItalicProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ItalicProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/ItalicProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/LowercaseSmallCapsProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LowercaseSmallCapsProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LowercaseSmallCapsProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LowercaseSmallCapsProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LowercaseSmallCapsProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/LowercaseSmallCapsProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/MonospacedDigitProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedDigitProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedDigitProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedDigitProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedDigitProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedDigitProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/MonospacedProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/MonospacedProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/SmallCapsProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SmallCapsProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SmallCapsProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SmallCapsProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SmallCapsProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/SmallCapsProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Font/UppercaseSmallCapsProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UppercaseSmallCapsProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UppercaseSmallCapsProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UppercaseSmallCapsProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UppercaseSmallCapsProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UppercaseSmallCapsProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/LineStyle/StrikethroughStyleProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StrikethroughStyleProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StrikethroughStyleProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StrikethroughStyleProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StrikethroughStyleProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/StrikethroughStyleProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/LineStyle/UnderlineStyleProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnderlineStyleProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnderlineStyleProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnderlineStyleProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnderlineStyleProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/UnderlineStyleProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Space/BaselineOffsetProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BaselineOffsetProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BaselineOffsetProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BaselineOffsetProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BaselineOffsetProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/BaselineOffsetProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Space/KerningProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/KerningProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/KerningProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/KerningProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/KerningProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/KerningProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/Space/TrackingProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TrackingProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TrackingProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TrackingProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TrackingProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TrackingProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/TextProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextProperty/TupleTextProperty.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TupleTextProperty.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TupleTextProperty.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TupleTextProperty~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TupleTextProperty.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TupleTextProperty.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/TextualNamespace.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualNamespace.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualNamespace.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualNamespace~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualNamespace.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/TextualNamespace.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/textual/Sources/Textual/View+Textual.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+Textual.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+Textual.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+Textual~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+Textual.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/View+Textual.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/resource_bundle_accessor.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/Textual.build/resource_bundle_accessor.dia"
+  }
+}

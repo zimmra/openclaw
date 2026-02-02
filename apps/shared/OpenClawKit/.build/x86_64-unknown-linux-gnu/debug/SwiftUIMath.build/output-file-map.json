@@ -1,0 +1,313 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/master.swiftdeps"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Font.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Font.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Font.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Font~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Font.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Font.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/CGContext+DisplayNode.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGContext+DisplayNode.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGContext+DisplayNode.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGContext+DisplayNode~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGContext+DisplayNode.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGContext+DisplayNode.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayAccent.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayAccent.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayAccent.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayAccent~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayAccent.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayAccent.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayFraction.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayFraction.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayFraction.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayFraction~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayFraction.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayFraction.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayGlyph.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyph.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyph.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyph~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyph.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyph.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayGlyphRun.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyphRun.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyphRun.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyphRun~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyphRun.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayGlyphRun.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayLargeOperator.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLargeOperator.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLargeOperator.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLargeOperator~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLargeOperator.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLargeOperator.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayLine.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLine.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLine.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLine~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLine.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayLine.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayList.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayList.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayList.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayList~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayList.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayList.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayNode.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayNode.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayNode.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayNode~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayNode.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayNode.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayProvider.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayProvider.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayProvider.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayProvider~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayProvider.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayProvider.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayRadical.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayRadical.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayRadical.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayRadical~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayRadical.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayRadical.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayShiftedNode.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayShiftedNode.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayShiftedNode.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayShiftedNode~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayShiftedNode.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayShiftedNode.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/DisplayTextRun.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayTextRun.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayTextRun.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayTextRun~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayTextRun.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DisplayTextRun.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/GraphicsContext+DisplayNode.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/GraphicsContext+DisplayNode.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/GraphicsContext+DisplayNode.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/GraphicsContext+DisplayNode~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/GraphicsContext+DisplayNode.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/GraphicsContext+DisplayNode.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Display/Typesetter.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Typesetter.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Typesetter.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Typesetter~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Typesetter.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Typesetter.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Font/FontMetrics.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontMetrics.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontMetrics.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontMetrics~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontMetrics.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontMetrics.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Font/FontRegistry.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontRegistry.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontRegistry.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontRegistry~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontRegistry.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontRegistry.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Font/FontTable.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontTable.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontTable.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontTable~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontTable.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/FontTable.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Font/PlatformFont.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/PlatformFont.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/PlatformFont.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/PlatformFont~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/PlatformFont.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/PlatformFont.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Helpers/CGColor+HexString.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGColor+HexString.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGColor+HexString.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGColor+HexString~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGColor+HexString.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/CGColor+HexString.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Helpers/KeyBox.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/KeyBox.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/KeyBox.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/KeyBox~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/KeyBox.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/KeyBox.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Helpers/ReadWriteLockIsolated.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ReadWriteLockIsolated.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ReadWriteLockIsolated.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ReadWriteLockIsolated~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ReadWriteLockIsolated.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ReadWriteLockIsolated.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Helpers/Unicode.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Unicode.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Unicode.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Unicode~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Unicode.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Unicode.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/AtomFactory.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomFactory.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomFactory.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomFactory~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomFactory.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomFactory.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/AtomList.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomList.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomList.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomList~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomList.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/AtomList.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Accent.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Accent.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Accent.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Accent~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Accent.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Accent.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Color.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Color.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Color.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Color~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Color.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Color.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/ColorBox.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ColorBox.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ColorBox.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ColorBox~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ColorBox.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/ColorBox.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Fraction.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Fraction.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Fraction.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Fraction~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Fraction.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Fraction.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Inner.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Inner.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Inner.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Inner~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Inner.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Inner.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/LargeOperator.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/LargeOperator.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/LargeOperator.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/LargeOperator~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/LargeOperator.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/LargeOperator.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Overline.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Overline.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Overline.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Overline~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Overline.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Overline.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Radical.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Radical.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Radical.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Radical~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Radical.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Radical.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Space.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Space.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Space.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Space~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Space.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Space.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Style.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Style.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Style.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Style~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Style.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Style.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Table.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Table.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Table.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Table~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Table.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Table.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/TextColor.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TextColor.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TextColor.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TextColor~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TextColor.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TextColor.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Atoms/Underline.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Underline.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Underline.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Underline~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Underline.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Underline.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Internal/Syntax/Parser.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Parser.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Parser.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Parser~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Parser.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Parser.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/Math.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Math.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Math.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Math~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Math.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/Math.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/RenderingMode.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/RenderingMode.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/RenderingMode.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/RenderingMode~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/RenderingMode.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/RenderingMode.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/checkouts/swiftui-math/Sources/SwiftUIMath/TypesettingStyle.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TypesettingStyle.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TypesettingStyle.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TypesettingStyle~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TypesettingStyle.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/TypesettingStyle.dia"
+  },
+  "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/resource_bundle_accessor.d",
+    "object": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/home/runner/work/openclaw/openclaw/apps/shared/OpenClawKit/.build/x86_64-unknown-linux-gnu/debug/SwiftUIMath.build/resource_bundle_accessor.dia"
+  }
+}
