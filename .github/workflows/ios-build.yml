@@ -50,65 +50,45 @@ jobs:
           cd apps/ios
           xcodegen generate
 
-      - name: Build iOS app
+      - name: Build iOS app (unsigned)
         run: |
           cd apps/ios
           set -euo pipefail
 
-          # Get team ID
-          TEAM_ID="${IOS_DEVELOPMENT_TEAM:-}"
-          if [ -z "$TEAM_ID" ]; then
-            TEAM_ID=$(bash ../../scripts/ios-team-id.sh 2>/dev/null || echo "")
-          fi
+          # Create export directory
+          mkdir -p "$RUNNER_TEMP/export"
 
-          if [ -z "$TEAM_ID" ]; then
-            echo "Warning: Could not determine team ID, using automatic signing"
-            SIGNING_ARGS="-allowProvisioningUpdates"
-          else
-            echo "Using team ID: $TEAM_ID"
-            SIGNING_ARGS="DEVELOPMENT_TEAM=$TEAM_ID -allowProvisioningUpdates"
-          fi
-
-          # Build for testing (ad-hoc distribution)
-          xcodebuild archive \
+          # Build without code signing
+          xcodebuild build \
             -project OpenClaw.xcodeproj \
             -scheme OpenClaw \
             -configuration Release \
-            -archivePath "$RUNNER_TEMP/OpenClaw.xcarchive" \
-            -destination "generic/platform=iOS" \
-            $SIGNING_ARGS \
-            CODE_SIGN_STYLE=Automatic \
-            CODE_SIGN_IDENTITY="Apple Development"
+            -sdk iphoneos \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData" \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            AD_HOC_CODE_SIGNING_ALLOWED=NO
 
-          # Export IPA
-          xcodebuild -exportArchive \
-            -archivePath "$RUNNER_TEMP/OpenClaw.xcarchive" \
-            -exportPath "$RUNNER_TEMP/export" \
-            -exportOptionsPlist <(cat <<EOF
-          <?xml version="1.0" encoding="UTF-8"?>
-          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-          <plist version="1.0">
-          <dict>
-            <key>method</key>
-            <string>development</string>
-            <key>signingStyle</key>
-            <string>automatic</string>
-            <key>stripSwiftSymbols</key>
-            <true/>
-            <key>uploadSymbols</key>
-            <true/>
-            <key>compileBitcode</key>
-            <false/>
-          </dict>
-          </plist>
-          EOF
-          ) \
-            $SIGNING_ARGS
+          # Find the built .app
+          APP_PATH=$(find "$RUNNER_TEMP/DerivedData" -name "OpenClaw.app" -type d | head -n 1)
+          if [ -z "$APP_PATH" ]; then
+            echo "Error: Could not find OpenClaw.app"
+            exit 1
+          fi
+          echo "Found app at: $APP_PATH"
+
+          # Create IPA (unsigned) - IPA is just a zip with Payload directory
+          mkdir -p "$RUNNER_TEMP/Payload"
+          cp -R "$APP_PATH" "$RUNNER_TEMP/Payload/"
+          cd "$RUNNER_TEMP"
+          zip -r OpenClaw-unsigned.ipa Payload
+          mv OpenClaw-unsigned.ipa "$RUNNER_TEMP/export/"
 
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v4
         with:
-          name: OpenClaw-iOS
+          name: OpenClaw-iOS-unsigned
           path: ${{ runner.temp }}/export/*.ipa
           retention-days: 30
           if-no-files-found: error
@@ -117,6 +97,6 @@ jobs:
         run: |
           echo "Build completed successfully"
           ls -lh "$RUNNER_TEMP/export/"
-          if [ -f "$RUNNER_TEMP/export/OpenClaw.ipa" ]; then
-            echo "IPA size: $(du -h "$RUNNER_TEMP/export/OpenClaw.ipa" | cut -f1)"
+          if [ -f "$RUNNER_TEMP/export/OpenClaw-unsigned.ipa" ]; then
+            echo "IPA size: $(du -h "$RUNNER_TEMP/export/OpenClaw-unsigned.ipa" | cut -f1)"
           fi
