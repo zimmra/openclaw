@@ -278,34 +278,33 @@ public actor GatewayChannelActor {
         let scopes = options.scopes
 
         let reqId = UUID().uuidString
-        var client: [String: ProtoAnyCodable] = [
-            "id": ProtoAnyCodable(clientId),
-            "displayName": ProtoAnyCodable(clientDisplayName),
-            "version": ProtoAnyCodable(
-                Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "dev"),
-            "platform": ProtoAnyCodable(platform),
-            "mode": ProtoAnyCodable(clientMode),
-            "instanceId": ProtoAnyCodable(InstanceIdentity.instanceId),
+        var client: [String: Any] = [
+            "id": clientId,
+            "displayName": clientDisplayName,
+            "version": Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "dev",
+            "platform": platform,
+            "mode": clientMode,
+            "instanceId": InstanceIdentity.instanceId,
         ]
-        client["deviceFamily"] = ProtoAnyCodable(InstanceIdentity.deviceFamily)
+        client["deviceFamily"] = InstanceIdentity.deviceFamily
         if let model = InstanceIdentity.modelIdentifier {
-            client["modelIdentifier"] = ProtoAnyCodable(model)
+            client["modelIdentifier"] = model
         }
-        var params: [String: ProtoAnyCodable] = [
-            "minProtocol": ProtoAnyCodable(GATEWAY_PROTOCOL_VERSION),
-            "maxProtocol": ProtoAnyCodable(GATEWAY_PROTOCOL_VERSION),
-            "client": ProtoAnyCodable(client),
-            "caps": ProtoAnyCodable(options.caps),
-            "locale": ProtoAnyCodable(primaryLocale),
-            "userAgent": ProtoAnyCodable(ProcessInfo.processInfo.operatingSystemVersionString),
-            "role": ProtoAnyCodable(role),
-            "scopes": ProtoAnyCodable(scopes),
+        var params: [String: Any] = [
+            "minProtocol": GATEWAY_PROTOCOL_VERSION,
+            "maxProtocol": GATEWAY_PROTOCOL_VERSION,
+            "client": client,
+            "caps": options.caps,
+            "locale": primaryLocale,
+            "userAgent": ProcessInfo.processInfo.operatingSystemVersionString,
+            "role": role,
+            "scopes": scopes,
         ]
         if !options.commands.isEmpty {
-            params["commands"] = ProtoAnyCodable(options.commands)
+            params["commands"] = options.commands
         }
         if !options.permissions.isEmpty {
-            params["permissions"] = ProtoAnyCodable(options.permissions)
+            params["permissions"] = options.permissions
         }
         let identity = DeviceIdentityStore.loadOrCreate()
         let storedToken = DeviceAuthStore.loadToken(deviceId: identity.deviceId, role: role)?.token
@@ -324,9 +323,9 @@ public actor GatewayChannelActor {
         self.logger.info("gateway connect auth=\(authSource.rawValue, privacy: .public)")
         let canFallbackToShared = storedToken != nil && self.token != nil
         if let authToken {
-            params["auth"] = ProtoAnyCodable(["token": ProtoAnyCodable(authToken)])
+            params["auth"] = ["token": authToken]
         } else if let password = self.password {
-            params["auth"] = ProtoAnyCodable(["password": ProtoAnyCodable(password)])
+            params["auth"] = ["password": password]
         }
         let signedAtMs = Int(Date().timeIntervalSince1970 * 1000)
         let connectNonce = try await self.waitForConnectChallenge()
@@ -347,16 +346,16 @@ public actor GatewayChannelActor {
         let payload = payloadParts.joined(separator: "|")
         if let signature = DeviceIdentityStore.signPayload(payload, identity: identity),
            let publicKey = DeviceIdentityStore.publicKeyBase64Url(identity) {
-            var device: [String: ProtoAnyCodable] = [
-                "id": ProtoAnyCodable(identity.deviceId),
-                "publicKey": ProtoAnyCodable(publicKey),
-                "signature": ProtoAnyCodable(signature),
-                "signedAt": ProtoAnyCodable(signedAtMs),
+            var device: [String: Any] = [
+                "id": identity.deviceId,
+                "publicKey": publicKey,
+                "signature": signature,
+                "signedAt": signedAtMs,
             ]
             if let connectNonce {
-                device["nonce"] = ProtoAnyCodable(connectNonce)
+                device["nonce"] = connectNonce
             }
-            params["device"] = ProtoAnyCodable(device)
+            params["device"] = device
         }
 
         let frame = RequestFrame(
@@ -674,8 +673,8 @@ public actor GatewayChannelActor {
         let id = UUID().uuidString
         // Encode request using the generated models to avoid JSONSerialization/ObjC bridging pitfalls.
         let paramsObject: ProtoAnyCodable? = params.map { entries in
-            let dict = entries.reduce(into: [String: ProtoAnyCodable]()) { dict, entry in
-                dict[entry.key] = ProtoAnyCodable(entry.value.value)
+            let dict = entries.reduce(into: [String: Any]()) { dict, entry in
+                dict[entry.key] = entry.value.value
             }
             return ProtoAnyCodable(dict)
         }
