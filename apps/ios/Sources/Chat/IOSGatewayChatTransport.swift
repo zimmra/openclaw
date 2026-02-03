@@ -21,8 +21,19 @@ struct IOSGatewayChatTransport: OpenClawChatTransport, Sendable {
     }
 
     func listSessions(limit: Int?) async throws -> OpenClawChatSessionsListResponse {
-        let limitStr = limit.map { String($0) } ?? "null"
-        let json = "{\"includeGlobal\":true,\"includeUnknown\":false,\"limit\":\(limitStr)}"
+        var params: [String: Any] = [
+            "includeGlobal": true,
+            "includeUnknown": false
+        ]
+        if let limit {
+            params["limit"] = limit
+        }
+        let data = try JSONSerialization.data(withJSONObject: params)
+        guard let json = String(data: data, encoding: .utf8) else {
+            throw NSError(domain: "Gateway", code: 1, userInfo: [
+                NSLocalizedDescriptionKey: "Failed to encode params"
+            ])
+        }
         let res = try await self.gateway.request(method: "sessions.list", paramsJSON: json, timeoutSeconds: 15)
         return try JSONDecoder().decode(OpenClawChatSessionsListResponse.self, from: res)
     }

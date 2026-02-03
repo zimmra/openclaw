@@ -61,7 +61,7 @@ final class NodeAppModel {
 
         let enabled = UserDefaults.standard.bool(forKey: "voiceWake.enabled")
         self.voiceWake.setEnabled(enabled)
-        self.talkMode.attachGateway(self.operatorGateway)
+        self.talkMode.attachGateway(self.operatorGateway, supportsChatSubscribe: false)
         let talkEnabled = UserDefaults.standard.bool(forKey: "talk.enabled")
         self.talkMode.setEnabled(talkEnabled)
 
