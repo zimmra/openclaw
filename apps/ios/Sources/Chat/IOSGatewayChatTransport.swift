@@ -32,13 +32,6 @@ struct IOSGatewayChatTransport: OpenClawChatTransport, Sendable {
         return try JSONDecoder().decode(OpenClawChatSessionsListResponse.self, from: res)
     }
 
-    func setActiveSessionKey(_ sessionKey: String) async throws {
-        struct Subscribe: Codable { var sessionKey: String }
-        let data = try JSONEncoder().encode(Subscribe(sessionKey: sessionKey))
-        let json = String(data: data, encoding: .utf8)
-        await self.gateway.sendEvent(event: "chat.subscribe", payloadJSON: json)
-    }
-
     func requestHistory(sessionKey: String) async throws -> OpenClawChatHistoryPayload {
         struct Params: Codable { var sessionKey: String }
         let data = try JSONEncoder().encode(Params(sessionKey: sessionKey))
