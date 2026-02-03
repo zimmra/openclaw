@@ -378,6 +378,7 @@ final class NodeAppModel {
                             }
                             await self.refreshBrandingFromGateway()
                             await self.startVoiceWakeSync()
+                            await self.showA2UIOnConnectIfNeeded()
                         },
                         onDisconnected: { [weak self] reason in
                             guard let self else { return }

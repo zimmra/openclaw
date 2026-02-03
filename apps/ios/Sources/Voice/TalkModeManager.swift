@@ -49,9 +49,11 @@ final class TalkModeManager: NSObject {
     private var chatSubscribedSessionKeys = Set<String>()
 
     private let logger = Logger(subsystem: "bot.molt", category: "TalkMode")
+    private var supportsChatSubscribe: Bool = false
 
-    func attachGateway(_ gateway: GatewayNodeSession) {
+    func attachGateway(_ gateway: GatewayNodeSession, supportsChatSubscribe: Bool = false) {
         self.gateway = gateway
+        self.supportsChatSubscribe = supportsChatSubscribe
     }
 
     func updateMainSessionKey(_ sessionKey: String?) {
@@ -296,6 +298,7 @@ final class TalkModeManager: NSObject {
     }
 
     private func subscribeChatIfNeeded(sessionKey: String) async {
+        guard self.supportsChatSubscribe else { return }
         let key = sessionKey.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !key.isEmpty else { return }
         guard let gateway else { return }
@@ -308,6 +311,7 @@ final class TalkModeManager: NSObject {
     }
 
     private func unsubscribeAllChats() async {
+        guard self.supportsChatSubscribe else { return }
         guard let gateway else { return }
         let keys = self.chatSubscribedSessionKeys
         self.chatSubscribedSessionKeys.removeAll()

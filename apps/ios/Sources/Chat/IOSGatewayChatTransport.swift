@@ -21,13 +21,8 @@ struct IOSGatewayChatTransport: OpenClawChatTransport, Sendable {
     }
 
     func listSessions(limit: Int?) async throws -> OpenClawChatSessionsListResponse {
-        struct Params: Codable {
-            var includeGlobal: Bool
-            var includeUnknown: Bool
-            var limit: Int?
-        }
-        let data = try JSONEncoder().encode(Params(includeGlobal: true, includeUnknown: false, limit: limit))
-        let json = String(data: data, encoding: .utf8)
+        let limitStr = limit.map { String($0) } ?? "null"
+        let json = "{\"includeGlobal\":true,\"includeUnknown\":false,\"limit\":\(limitStr)}"
         let res = try await self.gateway.request(method: "sessions.list", paramsJSON: json, timeoutSeconds: 15)
         return try JSONDecoder().decode(OpenClawChatSessionsListResponse.self, from: res)
     }
