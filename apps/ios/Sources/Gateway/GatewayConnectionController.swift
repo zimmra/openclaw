@@ -296,7 +296,7 @@ final class GatewayConnectionController {
 
         return GatewayConnectOptions(
             role: "operator",
-            scopes: [],
+            scopes: ["operator.admin"],
             caps: [],
             commands: [],
             permissions: [:],

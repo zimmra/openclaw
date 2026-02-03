@@ -38,6 +38,8 @@ final class NodeAppModel {
 
     private var gatewayConnected = false
     private var operatorGatewayConnected = false
+    private var nodeStatusText: String = "Offline"
+    private var operatorStatusText: String = "Offline"
     var gatewaySession: GatewayNodeSession { self.gateway }
     var operatorGatewaySession: GatewayNodeSession { self.operatorGateway }
 
@@ -175,6 +177,26 @@ final class NodeAppModel {
         self.screen.showDefaultCanvas()
     }
 
+    private func updateCombinedStatus() {
+        switch (self.operatorGatewayConnected, self.gatewayConnected) {
+        case (true, true):
+            self.gatewayStatusText = "Connected"
+        case (true, false):
+            self.gatewayStatusText = "Connected (node offline)"
+        case (false, true):
+            self.gatewayStatusText = "Connected (operator offline)"
+        case (false, false):
+            if self.operatorStatusText.trimmingCharacters(in: .whitespacesAndNewlines).localizedCaseInsensitiveContains("connecting") ||
+               self.operatorStatusText.trimmingCharacters(in: .whitespacesAndNewlines).localizedCaseInsensitiveContains("reconnecting") ||
+               self.nodeStatusText.trimmingCharacters(in: .whitespacesAndNewlines).localizedCaseInsensitiveContains("connecting") ||
+               self.nodeStatusText.trimmingCharacters(in: .whitespacesAndNewlines).localizedCaseInsensitiveContains("reconnecting") {
+                self.gatewayStatusText = "Connecting…"
+            } else {
+                self.gatewayStatusText = "Offline"
+            }
+        }
+    }
+
     func setScenePhase(_ phase: ScenePhase) {
         switch phase {
         case .background:
@@ -233,10 +255,11 @@ final class NodeAppModel {
             while !Task.isCancelled {
                 await MainActor.run {
                     if attempt == 0 {
-                        self.gatewayStatusText = "Connecting…"
+                        self.nodeStatusText = "Connecting…"
                     } else {
-                        self.gatewayStatusText = "Reconnecting…"
+                        self.nodeStatusText = "Reconnecting…"
                     }
+                    self.updateCombinedStatus()
                     self.gatewayServerName = nil
                     self.gatewayRemoteAddress = nil
                 }
@@ -251,9 +274,10 @@ final class NodeAppModel {
                         onConnected: { [weak self] in
                             guard let self else { return }
                             await MainActor.run {
-                                self.gatewayStatusText = "Connected"
+                                self.nodeStatusText = "Connected"
                                 self.gatewayServerName = url.host ?? "gateway"
                                 self.gatewayConnected = true
+                                self.updateCombinedStatus()
                             }
                             if let addr = await self.gateway.currentRemoteAddress() {
                                 await MainActor.run {
@@ -265,11 +289,11 @@ final class NodeAppModel {
                         onDisconnected: { [weak self] reason in
                             guard let self else { return }
                             await MainActor.run {
-                                self.gatewayStatusText = "Disconnected"
+                                self.nodeStatusText = "Disconnected: \(reason)"
                                 self.gatewayRemoteAddress = nil
                                 self.gatewayConnected = false
                                 self.showLocalCanvasOnDisconnect()
-                                self.gatewayStatusText = "Disconnected: \(reason)"
+                                self.updateCombinedStatus()
                             }
                         },
                         onInvoke: { [weak self] req in
@@ -291,11 +315,12 @@ final class NodeAppModel {
                     if Task.isCancelled { break }
                     attempt += 1
                     await MainActor.run {
-                        self.gatewayStatusText = "Gateway error: \(error.localizedDescription)"
+                        self.nodeStatusText = "Gateway error: \(error.localizedDescription)"
                         self.gatewayServerName = nil
                         self.gatewayRemoteAddress = nil
                         self.gatewayConnected = false
                         self.showLocalCanvasOnDisconnect()
+                        self.updateCombinedStatus()
                     }
                     let sleepSeconds = min(8.0, 0.5 * pow(1.7, Double(attempt)))
                     try? await Task.sleep(nanoseconds: UInt64(sleepSeconds * 1_000_000_000))
@@ -303,7 +328,7 @@ final class NodeAppModel {
             }
 
             await MainActor.run {
-                self.gatewayStatusText = "Offline"
+                self.nodeStatusText = "Offline"
                 self.gatewayServerName = nil
                 self.gatewayRemoteAddress = nil
                 self.connectedGatewayID = nil
@@ -314,12 +339,22 @@ final class NodeAppModel {
                     self.talkMode.updateMainSessionKey(self.mainSessionKey)
                 }
                 self.showLocalCanvasOnDisconnect()
+                self.updateCombinedStatus()
             }
         }
 
         self.operatorGatewayTask = Task {
             var attempt = 0
             while !Task.isCancelled {
+                await MainActor.run {
+                    if attempt == 0 {
+                        self.operatorStatusText = "Connecting…"
+                    } else {
+                        self.operatorStatusText = "Reconnecting…"
+                    }
+                    self.updateCombinedStatus()
+                }
+
                 do {
                     try await self.operatorGateway.connect(
                         url: url,
@@ -330,15 +365,19 @@ final class NodeAppModel {
                         onConnected: { [weak self] in
                             guard let self else { return }
                             await MainActor.run {
+                                self.operatorStatusText = "Connected"
                                 self.operatorGatewayConnected = true
+                                self.updateCombinedStatus()
                             }
                             await self.refreshBrandingFromGateway()
                             await self.startVoiceWakeSync()
                         },
-                        onDisconnected: { [weak self] _ in
+                        onDisconnected: { [weak self] reason in
                             guard let self else { return }
                             await MainActor.run {
+                                self.operatorStatusText = "Disconnected: \(reason)"
                                 self.operatorGatewayConnected = false
+                                self.updateCombinedStatus()
                             }
                         },
                         onInvoke: { req in
@@ -357,7 +396,9 @@ final class NodeAppModel {
                     if Task.isCancelled { break }
                     attempt += 1
                     await MainActor.run {
+                        self.operatorStatusText = "Gateway error: \(error.localizedDescription)"
                         self.operatorGatewayConnected = false
+                        self.updateCombinedStatus()
                     }
                     let sleepSeconds = min(8.0, 0.5 * pow(1.7, Double(attempt)))
                     try? await Task.sleep(nanoseconds: UInt64(sleepSeconds * 1_000_000_000))
@@ -365,7 +406,9 @@ final class NodeAppModel {
             }
 
             await MainActor.run {
+                self.operatorStatusText = "Offline"
                 self.operatorGatewayConnected = false
+                self.updateCombinedStatus()
             }
         }
     }
@@ -381,7 +424,8 @@ final class NodeAppModel {
             await self.gateway.disconnect()
             await self.operatorGateway.disconnect()
         }
-        self.gatewayStatusText = "Offline"
+        self.nodeStatusText = "Offline"
+        self.operatorStatusText = "Offline"
         self.gatewayServerName = nil
         self.gatewayRemoteAddress = nil
         self.connectedGatewayID = nil
@@ -393,6 +437,7 @@ final class NodeAppModel {
             self.talkMode.updateMainSessionKey(self.mainSessionKey)
         }
         self.showLocalCanvasOnDisconnect()
+        self.updateCombinedStatus()
     }
 
     private func applyMainSessionKey(_ key: String?) {
