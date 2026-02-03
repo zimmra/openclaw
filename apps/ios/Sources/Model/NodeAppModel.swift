@@ -159,11 +159,12 @@ final class NodeAppModel {
     private func resolveA2UIHostURL() async -> String? {
         let nodeRaw = await self.gateway.currentCanvasHostUrl()
         let operatorRaw = await self.operatorGateway.currentCanvasHostUrl()
-        let raw = {
+        let raw: String? = {
             let node = (nodeRaw ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
             if !node.isEmpty { return node }
             let op = (operatorRaw ?? "").trimmingCharacters(in: .whitespacesAndNewlines)
-            return op.isEmpty ? nil : op
+            if !op.isEmpty { return op }
+            return nil
         }()
         guard let raw, let base = URL(string: raw) else { return nil }
         return base.appendingPathComponent("__openclaw__/a2ui/").absoluteString + "?platform=ios"
