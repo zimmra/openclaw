@@ -1,0 +1,89 @@
+name: NPM Pack Smoke
+
+on:
+  workflow_dispatch:
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+          check-latest: true
+
+      - name: Setup pnpm (corepack retry)
+        run: |
+          set -euo pipefail
+          corepack enable
+          for attempt in 1 2 3; do
+            if corepack prepare pnpm@10.23.0 --activate; then
+              pnpm -v
+              exit 0
+            fi
+            echo "corepack prepare failed (attempt $attempt/3). Retrying..."
+            sleep $((attempt * 10))
+          done
+          exit 1
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build and release checks
+        run: |
+          pnpm build
+          pnpm release:check
+
+      - name: Pack npm tarball
+        run: |
+          set -euo pipefail
+          npm pack --ignore-scripts
+
+      - name: Upload npm tarball
+        uses: actions/upload-artifact@v4
+        with:
+          name: openclaw-npm-tgz
+          path: "*.tgz"
+
+  install-smoke:
+    needs: pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download npm tarball
+        uses: actions/download-artifact@v4
+        with:
+          name: openclaw-npm-tgz
+          path: distpkg
+
+      - name: Install packed CLI and verify bundled hooks
+        run: |
+          set -euo pipefail
+
+          PKG="$(ls distpkg/*.tgz)"
+          PREFIX="$RUNNER_TEMP/openclaw-global"
+          npm install -g --prefix "$PREFIX" "$PKG"
+
+          "$PREFIX/bin/openclaw" --version
+          "$PREFIX/bin/openclaw" hooks list --json
+
+          ROOT="$(npm root -g --prefix "$PREFIX")/openclaw"
+          if [ ! -d "$ROOT/dist/hooks/bundled" ]; then
+            echo "missing bundled hooks directory: $ROOT/dist/hooks/bundled"
+            exit 1
+          fi
+
+          for hook_dir in "$ROOT"/dist/hooks/bundled/*; do
+            [ -d "$hook_dir" ] || continue
+            test -f "$hook_dir/HOOK.md" || {
+              echo "missing HOOK.md in $hook_dir"
+              exit 1
+            }
+            test -f "$hook_dir/handler.js" || {
+              echo "missing handler.js in $hook_dir"
+              exit 1
+            }
+          done
