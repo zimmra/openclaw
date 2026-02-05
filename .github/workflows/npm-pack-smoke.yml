@@ -36,6 +36,7 @@ jobs:
       - name: Build and release checks
         run: |
           pnpm build
+          pnpm ui:build
           pnpm release:check
 
       - name: Pack npm tarball
@@ -63,7 +64,12 @@ jobs:
         run: |
           set -euo pipefail
 
-          PKG="$(ls distpkg/*.tgz)"
+          PKG="$(find distpkg -maxdepth 1 -type f -name '*.tgz' | head -n 1)"
+          if [ -z "$PKG" ]; then
+            echo "no packed artifact found under distpkg/"
+            exit 1
+          fi
+          PKG="$(realpath "$PKG")"
           PREFIX="$RUNNER_TEMP/openclaw-global"
           npm install -g --prefix "$PREFIX" "$PKG"
 
@@ -71,6 +77,15 @@ jobs:
           "$PREFIX/bin/openclaw" hooks list --json
 
           ROOT="$(npm root -g --prefix "$PREFIX")/openclaw"
+          if [ ! -f "$ROOT/dist/control-ui/index.html" ]; then
+            echo "missing Control UI index: $ROOT/dist/control-ui/index.html"
+            exit 1
+          fi
+          if [ ! -d "$ROOT/dist/control-ui/assets" ] || ! ls "$ROOT/dist/control-ui/assets"/* >/dev/null 2>&1; then
+            echo "missing Control UI assets under: $ROOT/dist/control-ui/assets"
+            exit 1
+          fi
+
           if [ ! -d "$ROOT/dist/hooks/bundled" ]; then
             echo "missing bundled hooks directory: $ROOT/dist/hooks/bundled"
             exit 1
