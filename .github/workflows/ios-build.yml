@@ -1,0 +1,102 @@
+name: iOS Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: false
+
+      - name: Checkout submodules (retry)
+        run: |
+          set -euo pipefail
+          git submodule sync --recursive
+          for attempt in 1 2 3 4 5; do
+            if git -c protocol.version=2 submodule update --init --force --depth=1 --recursive; then
+              exit 0
+            fi
+            echo "Submodule update failed (attempt $attempt/5). Retrying…"
+            sleep $((attempt * 10))
+          done
+          exit 1
+
+      - name: Select Xcode 26.1
+        run: |
+          sudo xcode-select -s /Applications/Xcode_26.1.app
+          xcodebuild -version
+
+      - name: Install dependencies
+        run: |
+          brew install xcodegen swiftlint swiftformat fastlane
+
+      - name: Show toolchain
+        run: |
+          sw_vers
+          xcodebuild -version
+          swift --version
+          fastlane --version
+
+      - name: Generate iOS project
+        run: |
+          cd apps/ios
+          xcodegen generate
+
+      - name: Build iOS app (unsigned)
+        run: |
+          cd apps/ios
+          set -euo pipefail
+
+          # Create export directory
+          mkdir -p "$RUNNER_TEMP/export"
+
+          # Build without code signing
+          xcodebuild build \
+            -project OpenClaw.xcodeproj \
+            -scheme OpenClaw \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData" \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            AD_HOC_CODE_SIGNING_ALLOWED=NO
+
+          # Find the built .app
+          APP_PATH=$(find "$RUNNER_TEMP/DerivedData" -name "OpenClaw.app" -type d | head -n 1)
+          if [ -z "$APP_PATH" ]; then
+            echo "Error: Could not find OpenClaw.app"
+            exit 1
+          fi
+          echo "Found app at: $APP_PATH"
+
+          # Create IPA (unsigned) - IPA is just a zip with Payload directory
+          mkdir -p "$RUNNER_TEMP/Payload"
+          cp -R "$APP_PATH" "$RUNNER_TEMP/Payload/"
+          cd "$RUNNER_TEMP"
+          zip -r OpenClaw-unsigned.ipa Payload
+          mv OpenClaw-unsigned.ipa "$RUNNER_TEMP/export/"
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: OpenClaw-iOS-unsigned
+          path: ${{ runner.temp }}/export/*.ipa
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Build info
+        run: |
+          echo "Build completed successfully"
+          ls -lh "$RUNNER_TEMP/export/"
+          if [ -f "$RUNNER_TEMP/export/OpenClaw-unsigned.ipa" ]; then
+            echo "IPA size: $(du -h "$RUNNER_TEMP/export/OpenClaw-unsigned.ipa" | cut -f1)"
+          fi
