@@ -16,18 +16,10 @@ jobs:
         with:
           submodules: false
 
-      - name: Checkout submodules (retry)
-        run: |
-          set -euo pipefail
-          git submodule sync --recursive
-          for attempt in 1 2 3 4 5; do
-            if git -c protocol.version=2 submodule update --init --force --depth=1 --recursive; then
-              exit 0
-            fi
-            echo "Submodule update failed (attempt $attempt/5). Retrying…"
-            sleep $((attempt * 10))
-          done
-          exit 1
+      - name: Setup Node environment
+        uses: ./.github/actions/setup-node-env
+        with:
+          install-bun: "false"
 
       - name: Select Xcode 26.1
         run: |
@@ -46,9 +38,7 @@ jobs:
           fastlane --version
 
       - name: Generate iOS project
-        run: |
-          cd apps/ios
-          xcodegen generate
+        run: pnpm ios:gen
 
       - name: Build iOS app (unsigned)
         run: |
