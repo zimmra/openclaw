@@ -1,40 +1,66 @@
 # OpenClaw (iOS)
 
-Internal-only SwiftUI app scaffold.
+This is an **alpha** iOS app that connects to an OpenClaw Gateway as a `role: node`.
 
-## GitHub Actions
+Expect rough edges:
 
-The iOS app is automatically built via GitHub Actions on push and pull requests. The workflow:
-- Generates the Xcode project with XcodeGen
-- Builds the app for iOS using xcodebuild (without code signing)
-- Creates an unsigned .ipa file for testing
-- Uploads the unsigned .ipa as a workflow artifact
+- UI and onboarding are changing quickly.
+- Background behavior is not stable yet (foreground app is the supported mode right now).
+- Permissions are opt-in and the app should be treated as sensitive while we harden it.
 
-The unsigned IPA can be downloaded from the Actions tab and signed separately as needed.
+## What It Does
 
-See `.github/workflows/ios-build.yml` for details.
+- Connects to a Gateway over `ws://` / `wss://`
+- Pairs a new device (approved from your bot)
+- Exposes phone services as node commands (camera, location, photos, calendar, reminders, etc; gated by iOS permissions)
+- Provides Talk + Chat surfaces (alpha)
 
-## Lint/format (required)
+## Pairing (Recommended Flow)
+
+If your Gateway has the `device-pair` plugin installed:
+
+1. In Telegram, message your bot: `/pair`
+2. Copy the **setup code** message
+3. On iOS: OpenClaw → Settings → Gateway → paste setup code → Connect
+4. Back in Telegram: `/pair approve`
+
+## Build And Run
+
+Prereqs:
+
+- Xcode (current stable)
+- `pnpm`
+- `xcodegen`
+
+From the repo root:
+
 ```bash
-brew install swiftformat swiftlint
+pnpm install
+pnpm ios:open
 ```
 
-## Generate the Xcode project
+Then in Xcode:
+
+1. Select the `OpenClaw` scheme
+2. Select a simulator or a connected device
+3. Run
+
+If you're using a personal Apple Development team, you may need to change the bundle identifier in Xcode to a unique value so signing succeeds.
+
+## Build From CLI
+
+```bash
+pnpm ios:build
+```
+
+## Tests
+
 ```bash
 cd apps/ios
 xcodegen generate
-open OpenClaw.xcodeproj
+xcodebuild test -project OpenClaw.xcodeproj -scheme OpenClaw -destination "platform=iOS Simulator,name=iPhone 17"
 ```
 
-## Shared packages
-- `../shared/OpenClawKit` — shared types/constants used by iOS (and later macOS bridge + gateway routing).
+## Shared Code
 
-## fastlane
-```bash
-brew install fastlane
-
-cd apps/ios
-fastlane lanes
-```
-
-See `apps/ios/fastlane/SETUP.md` for App Store Connect auth + upload lanes.
+- `apps/shared/OpenClawKit` contains the shared transport/types used by the iOS app.
