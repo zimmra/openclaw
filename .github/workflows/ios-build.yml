@@ -52,11 +52,11 @@ jobs:
           # idevice inserts the personal team ID into the watch app bundle ID
           # (ai.openclaw.ios.watchkitapp → ai.openclaw.ios.XCFWESW6T8.watchkitapp)
           # but does not update the nested watch extension bundle ID, causing
-          # AppexBundleIDNotPrefixed on install. Pre-bake the team ID into both
-          # the watch app and extension bundle IDs so they stay in sync during
-          # the archive build and after sideloading.
+          # AppexBundleIDNotPrefixed on install. Pre-bake the team ID into only
+          # the watch extension bundle ID so it matches the transformed watch app
+          # bundle ID during sideloading.
           # LocalSigning.xcconfig is gitignored and #include?d by Config/Signing.xcconfig.
-          printf 'OPENCLAW_WATCH_APP_BUNDLE_ID = ai.openclaw.ios.XCFWESW6T8.watchkitapp\nOPENCLAW_WATCH_EXTENSION_BUNDLE_ID = ai.openclaw.ios.XCFWESW6T8.watchkitapp.extension\n' \
+          printf 'OPENCLAW_WATCH_EXTENSION_BUNDLE_ID = ai.openclaw.ios.XCFWESW6T8.watchkitapp.extension\n' \
             > apps/ios/LocalSigning.xcconfig
 
       - name: Generate iOS project
