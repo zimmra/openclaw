@@ -103,6 +103,15 @@ jobs:
           rm -rf "$RUNNER_TEMP/export/Payload"
           mkdir -p "$RUNNER_TEMP/export/Payload"
           cp -R "$APP_PATH" "$RUNNER_TEMP/export/Payload/"
+
+          # Strip the embedded Watch app before packaging.
+          # Sideloading tools (e.g. idevice/Sideloadly) transform top-level bundle IDs
+          # by inserting the user's personal team ID, but do not consistently traverse
+          # into Watch/<WatchApp>.app/PlugIns/ to update the WatchKit extension ID.
+          # This causes an AppexBundleIDNotPrefixed error on install.
+          # Users who need watch support must sign with a proper provisioning profile.
+          rm -rf "$RUNNER_TEMP/export/Payload/OpenClaw.app/Watch"
+
           cd "$RUNNER_TEMP/export"
           ditto -c -k --sequesterRsrc --keepParent Payload OpenClaw-unsigned.ipa
           rm -rf Payload
