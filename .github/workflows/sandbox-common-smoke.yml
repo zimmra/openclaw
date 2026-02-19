@@ -1,25 +1,15 @@
 name: Sandbox Common Smoke
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - Dockerfile.sandbox
-      - Dockerfile.sandbox-common
-      - scripts/sandbox-common-setup.sh
-  pull_request:
-    paths:
-      - Dockerfile.sandbox
-      - Dockerfile.sandbox-common
-      - scripts/sandbox-common-setup.sh
+  workflow_dispatch:
 
 concurrency:
-  group: sandbox-common-smoke-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+  group: sandbox-common-smoke-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   sandbox-common-smoke:
-    runs-on: blacksmith-16vcpu-ubuntu-2404
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4

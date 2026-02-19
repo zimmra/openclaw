@@ -1,0 +1,76 @@
+name: Sync upstream
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    name: Sync from openclaw/openclaw
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.SYNC_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch upstream
+        run: |
+          git remote remove upstream 2>/dev/null || true
+          git remote add upstream https://github.com/openclaw/openclaw.git
+          git fetch upstream main
+
+      - name: Check sync status
+        id: check
+        run: |
+          LOCAL_HEAD=$(git rev-parse HEAD)
+          UPSTREAM_HEAD=$(git rev-parse upstream/main)
+
+          echo "local_head=${LOCAL_HEAD}" >> "$GITHUB_OUTPUT"
+          echo "upstream_head=${UPSTREAM_HEAD}" >> "$GITHUB_OUTPUT"
+
+          if git merge-base --is-ancestor "$UPSTREAM_HEAD" "$LOCAL_HEAD"; then
+            echo "status=up-to-date" >> "$GITHUB_OUTPUT"
+            echo "Already up to date with upstream."
+          else
+            echo "status=behind" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Sync to upstream and preserve workflows
+        if: steps.check.outputs.status == 'behind'
+        run: |
+          set -euo pipefail
+
+          LOCAL_HEAD="${{ steps.check.outputs.local_head }}"
+          UPSTREAM_SHA=$(git rev-parse --short "${{ steps.check.outputs.upstream_head }}")
+
+          # Move branch to exact upstream main state (no conflict-prone history replay).
+          git reset --hard "${{ steps.check.outputs.upstream_head }}"
+
+          # Preserve local workflow policy exactly (ios-build + custom trigger settings).
+          rm -rf .github/workflows
+          mkdir -p .github/workflows
+          git archive "$LOCAL_HEAD" .github/workflows | tar -x
+
+          if ! git diff --quiet; then
+            git add -A .github/workflows
+            git commit -m "chore: preserve fork workflows after upstream sync ${UPSTREAM_SHA}"
+          fi
+
+      - name: Push
+        if: steps.check.outputs.status == 'behind'
+        run: git push --force-with-lease origin HEAD:main

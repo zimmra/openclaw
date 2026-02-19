@@ -1,0 +1,124 @@
+name: iOS Build
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - apps/ios/**
+      - apps/shared/**
+      - Swabble/**
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: false
+
+      - name: Setup Node environment
+        uses: ./.github/actions/setup-node-env
+        with:
+          install-bun: "false"
+
+      - name: Select Xcode 26.1
+        run: |
+          set -euo pipefail
+          for candidate in /Applications/Xcode_26.1.1.app /Applications/Xcode_26.1.app; do
+            if [ -d "$candidate" ]; then
+              sudo xcode-select -s "$candidate"
+              break
+            fi
+          done
+          xcodebuild -version
+
+      - name: Install dependencies
+        run: |
+          brew install xcodegen swiftlint swiftformat fastlane
+
+      - name: Show toolchain
+        run: |
+          sw_vers
+          xcodebuild -version
+          swift --version
+          fastlane --version
+
+      - name: Generate iOS project
+        run: pnpm ios:gen
+
+      - name: Build iOS app (unsigned)
+        run: |
+          cd apps/ios
+          set -euo pipefail
+
+          # Create export directory
+          mkdir -p "$RUNNER_TEMP/export"
+
+          # Archive without code signing. Use destination instead of -sdk so watchOS targets
+          # are built for watchOS while the iOS app is built for iOS.
+          xcodebuild archive \
+            -project OpenClaw.xcodeproj \
+            -scheme OpenClaw \
+            -configuration Release \
+            -destination "generic/platform=iOS" \
+            -archivePath "$RUNNER_TEMP/OpenClaw.xcarchive" \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData" \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            AD_HOC_CODE_SIGNING_ALLOWED=NO
+
+          # Find archived .app
+          APP_PATH="$RUNNER_TEMP/OpenClaw.xcarchive/Products/Applications/OpenClaw.app"
+          if [ ! -d "$APP_PATH" ]; then
+            echo "Error: Could not find archived OpenClaw.app"
+            exit 1
+          fi
+          echo "Found app at: $APP_PATH"
+
+          SHARE_EXT_PATH="$APP_PATH/PlugIns/OpenClawShareExtension.appex"
+          WATCH_APP_PATH="$APP_PATH/Watch/OpenClawWatchApp.app"
+          WATCH_EXT_PATH="$WATCH_APP_PATH/PlugIns/OpenClawWatchExtension.appex"
+
+          if [ ! -d "$SHARE_EXT_PATH" ]; then
+            echo "Error: Missing share extension in archive: $SHARE_EXT_PATH"
+            exit 1
+          fi
+
+          if [ ! -d "$WATCH_APP_PATH" ]; then
+            echo "Error: Missing watch app in archive: $WATCH_APP_PATH"
+            exit 1
+          fi
+
+          if [ ! -d "$WATCH_EXT_PATH" ]; then
+            echo "Error: Missing watch extension in archive: $WATCH_EXT_PATH"
+            exit 1
+          fi
+
+          # Create IPA (unsigned) - IPA is just a zip with Payload directory
+          rm -rf "$RUNNER_TEMP/export/Payload"
+          mkdir -p "$RUNNER_TEMP/export/Payload"
+          cp -R "$APP_PATH" "$RUNNER_TEMP/export/Payload/"
+          cd "$RUNNER_TEMP/export"
+          ditto -c -k --sequesterRsrc --keepParent Payload OpenClaw-unsigned.ipa
+          rm -rf Payload
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: OpenClaw-iOS-unsigned
+          path: ${{ runner.temp }}/export/*.ipa
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Build info
+        run: |
+          echo "Build completed successfully"
+          ls -lh "$RUNNER_TEMP/export/"
+          if [ -f "$RUNNER_TEMP/export/OpenClaw-unsigned.ipa" ]; then
+            echo "IPA size: $(du -h "$RUNNER_TEMP/export/OpenClaw-unsigned.ipa" | cut -f1)"
+          fi
