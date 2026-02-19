@@ -47,18 +47,6 @@ jobs:
           swift --version
           fastlane --version
 
-      - name: Configure sideload bundle IDs
-        run: |
-          # idevice inserts the personal team ID into the watch app bundle ID
-          # (ai.openclaw.ios.watchkitapp → ai.openclaw.ios.XCFWESW6T8.watchkitapp)
-          # but does not update the nested watch extension bundle ID, causing
-          # AppexBundleIDNotPrefixed on install. Pre-bake the team ID into only
-          # the watch extension bundle ID so it matches the transformed watch app
-          # bundle ID during sideloading.
-          # LocalSigning.xcconfig is gitignored and #include?d by Config/Signing.xcconfig.
-          printf 'OPENCLAW_WATCH_EXTENSION_BUNDLE_ID = ai.openclaw.ios.XCFWESW6T8.watchkitapp.extension\n' \
-            > apps/ios/LocalSigning.xcconfig
-
       - name: Generate iOS project
         run: pnpm ios:gen
 
@@ -110,6 +98,21 @@ jobs:
             echo "Error: Missing watch extension in archive: $WATCH_EXT_PATH"
             exit 1
           fi
+
+          # Patch watch extension bundle IDs for sideloading.
+          # Sideloading tools (e.g. idevice) insert the personal team ID into the
+          # main app and watch app bundle IDs but skip the watch extension, causing
+          # AppexBundleIDNotPrefixed on install. We can't pre-bake the team ID at
+          # compile time because Xcode's ValidateEmbeddedBinary requires the extension
+          # bundle ID to be prefixed by the watch app bundle ID *during* the archive.
+          # Instead we patch the already-archived extension plist so the IPA ships
+          # with the team-ID-prefixed extension bundle ID that matches the watch app
+          # bundle ID after sideloading transforms it.
+          TEAM_ID="XCFWESW6T8"
+          WATCH_EXT_PLIST="$WATCH_EXT_PATH/Info.plist"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier ai.openclaw.ios.${TEAM_ID}.watchkitapp.extension" "$WATCH_EXT_PLIST"
+          /usr/libexec/PlistBuddy -c "Set :NSExtension:NSExtensionAttributes:WKAppBundleIdentifier ai.openclaw.ios.${TEAM_ID}.watchkitapp" "$WATCH_EXT_PLIST"
+          echo "Patched watch extension bundle ID for sideloading (team ${TEAM_ID})"
 
           # Create IPA (unsigned) - IPA is just a zip with Payload directory
           rm -rf "$RUNNER_TEMP/export/Payload"
