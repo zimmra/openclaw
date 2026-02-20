@@ -38,6 +38,7 @@ targets:
       - target: OpenClawShareExtension
         embed: true
       - target: OpenClawWatchApp
+        embed: true
       - package: OpenClawKit
       - package: OpenClawKit
         product: OpenClawChatUI
@@ -166,6 +167,7 @@ targets:
       - path: WatchApp
     dependencies:
       - target: OpenClawWatchExtension
+        embed: true
     configFiles:
       Debug: Config/Signing.xcconfig
       Release: Config/Signing.xcconfig
