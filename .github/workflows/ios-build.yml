@@ -118,13 +118,14 @@ jobs:
           cp -R "$APP_PATH" "$RUNNER_TEMP/export/Payload/"
           cd "$RUNNER_TEMP/export"
           ditto -c -k --sequesterRsrc --keepParent Payload OpenClaw-unsigned.ipa
+          zip -r OpenClaw-unsigned.zip OpenClaw-unsigned.ipa
           rm -rf Payload
 
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v4
         with:
           name: OpenClaw-iOS-unsigned
-          path: ${{ runner.temp }}/export/*.ipa
+          path: ${{ runner.temp }}/export/*.zip
           retention-days: 30
           if-no-files-found: error
 
@@ -132,6 +133,6 @@ jobs:
         run: |
           echo "Build completed successfully"
           ls -lh "$RUNNER_TEMP/export/"
-          if [ -f "$RUNNER_TEMP/export/OpenClaw-unsigned.ipa" ]; then
-            echo "IPA size: $(du -h "$RUNNER_TEMP/export/OpenClaw-unsigned.ipa" | cut -f1)"
+          if [ -f "$RUNNER_TEMP/export/OpenClaw-unsigned.zip" ]; then
+            echo "Zip size: $(du -h "$RUNNER_TEMP/export/OpenClaw-unsigned.zip" | cut -f1)"
           fi
