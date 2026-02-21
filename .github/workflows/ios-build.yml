@@ -112,6 +112,11 @@ jobs:
           /usr/libexec/PlistBuddy -c "Set :NSExtension:NSExtensionAttributes:WKAppBundleIdentifier ai.openclaw.ios.${TEAM_ID}.watchkitapp" "$WATCH_EXT_PLIST"
           echo "Patched watch extension bundle ID for sideloading (team ${TEAM_ID})"
 
+          # Also patch the watch app's WKCompanionAppBundleIdentifier to match the main app's new bundle ID
+          WATCH_APP_PLIST="$WATCH_APP_PATH/Info.plist"
+          /usr/libexec/PlistBuddy -c "Set :WKCompanionAppBundleIdentifier ai.openclaw.ios.${TEAM_ID}" "$WATCH_APP_PLIST"
+          echo "Patched watch app companion bundle ID for sideloading (team ${TEAM_ID})"
+
           # Create IPA (unsigned) - IPA is just a zip with Payload directory
           rm -rf "$RUNNER_TEMP/export/Payload"
           mkdir -p "$RUNNER_TEMP/export/Payload"

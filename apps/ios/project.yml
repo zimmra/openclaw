@@ -174,10 +174,12 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: "$(OPENCLAW_WATCH_APP_BUNDLE_ID)"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
     info:
       path: WatchApp/Info.plist
       properties:
         CFBundleDisplayName: OpenClaw
+        CFBundleIconName: AppIcon
         CFBundleShortVersionString: "2026.2.20"
         CFBundleVersion: "20260220"
         WKCompanionAppBundleIdentifier: "$(OPENCLAW_APP_BUNDLE_ID)"
