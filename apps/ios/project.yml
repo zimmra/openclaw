@@ -74,7 +74,7 @@ targets:
           swiftlint lint --config "$SRCROOT/.swiftlint.yml" --use-script-input-file-lists
     settings:
       base:
-        CODE_SIGN_IDENTITY: "Apple Development"
+        CODE_SIGN_IDENTITY: "$(OPENCLAW_CODE_SIGN_IDENTITY)"
         CODE_SIGN_ENTITLEMENTS: Sources/OpenClaw.entitlements
         CODE_SIGN_STYLE: "$(OPENCLAW_CODE_SIGN_STYLE)"
         DEVELOPMENT_TEAM: "$(OPENCLAW_DEVELOPMENT_TEAM)"
@@ -135,7 +135,7 @@ targets:
       - package: OpenClawKit
     settings:
       base:
-        CODE_SIGN_IDENTITY: "Apple Development"
+        CODE_SIGN_IDENTITY: "$(OPENCLAW_CODE_SIGN_IDENTITY)"
         CODE_SIGN_STYLE: "$(OPENCLAW_CODE_SIGN_STYLE)"
         DEVELOPMENT_TEAM: "$(OPENCLAW_DEVELOPMENT_TEAM)"
         PRODUCT_BUNDLE_IDENTIFIER: "$(OPENCLAW_SHARE_BUNDLE_ID)"
@@ -172,6 +172,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: "$(OPENCLAW_WATCH_APP_BUNDLE_ID)"
+        PROVISIONING_PROFILE_SPECIFIER: "$(OPENCLAW_WATCH_APP_PROFILE)"
     info:
       path: WatchApp/Info.plist
       properties:
@@ -196,6 +197,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: "$(OPENCLAW_WATCH_EXTENSION_BUNDLE_ID)"
+        PROVISIONING_PROFILE_SPECIFIER: "$(OPENCLAW_WATCH_EXT_PROFILE)"
     info:
       path: WatchExtension/Info.plist
       properties:
