@@ -50,16 +50,205 @@ jobs:
       - name: Generate iOS project
         run: pnpm ios:gen
 
-      - name: Build iOS app (unsigned)
+      # --- Signing setup (only on workflow_dispatch when secrets are available) ---
+      - name: Import signing certificate
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          P12_BASE64: ${{ secrets.IOS_P12_BASE64 }}
+          P12_PASSWORD: ${{ secrets.IOS_P12_PASSWORD }}
+          KEYCHAIN_PASSWORD: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+
+          CERTIFICATE_PATH="$RUNNER_TEMP/certificate.p12"
+          KEYCHAIN_PATH="$RUNNER_TEMP/build.keychain-db"
+
+          echo "$P12_BASE64" | base64 --decode -o "$CERTIFICATE_PATH"
+
+          security create-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+          security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+
+          security import "$CERTIFICATE_PATH" \
+            -P "$P12_PASSWORD" \
+            -A \
+            -t cert \
+            -f pkcs12 \
+            -k "$KEYCHAIN_PATH"
+
+          # Allow codesign to use the keychain without UI prompt
+          security set-key-partition-list -S apple-tool:,apple:,codesign: \
+            -s -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+
+          security list-keychains -d user -s "$KEYCHAIN_PATH" login.keychain-db
+          security default-keychain -s "$KEYCHAIN_PATH"
+
+          echo "Certificate imported into temporary keychain"
+
+      - name: Install provisioning profiles
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          APP_PROFILE_BASE64: ${{ secrets.IOS_APP_PROVISION_BASE64 }}
+          SHARE_PROFILE_BASE64: ${{ secrets.IOS_SHARE_PROVISION_BASE64 }}
+          WATCH_APP_PROFILE_BASE64: ${{ secrets.IOS_WATCH_APP_PROVISION_BASE64 }}
+          WATCH_EXT_PROFILE_BASE64: ${{ secrets.IOS_WATCH_EXT_PROVISION_BASE64 }}
+        run: |
+          set -euo pipefail
+
+          PROFILES_DIR="$HOME/Library/MobileDevice/Provisioning Profiles"
+          mkdir -p "$PROFILES_DIR"
+
+          install_profile() {
+            local name="$1" b64="$2"
+            if [ -z "$b64" ]; then
+              echo "Warning: $name profile not provided, skipping"
+              return
+            fi
+            local uuid
+            uuid=$(echo "$b64" | base64 --decode | openssl smime -inform der -verify -noverify 2>/dev/null \
+              | plutil -extract UUID raw -)
+            echo "$b64" | base64 --decode > "$PROFILES_DIR/$uuid.mobileprovision"
+            echo "Installed $name profile: $uuid"
+          }
+
+          install_profile "App"            "$APP_PROFILE_BASE64"
+          install_profile "ShareExtension" "$SHARE_PROFILE_BASE64"
+          install_profile "WatchApp"       "$WATCH_APP_PROFILE_BASE64"
+          install_profile "WatchExtension" "$WATCH_EXT_PROFILE_BASE64"
+
+      - name: Write CI signing overrides
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          DEVELOPMENT_TEAM: ${{ secrets.IOS_TEAM_ID }}
+          SIGN_IDENTITY: ${{ secrets.IOS_CODE_SIGN_IDENTITY }}
+          APP_PROFILE_NAME: ${{ secrets.IOS_APP_PROFILE_NAME }}
+          SHARE_PROFILE_NAME: ${{ secrets.IOS_SHARE_PROFILE_NAME }}
+          WATCH_APP_PROFILE_NAME: ${{ secrets.IOS_WATCH_APP_PROFILE_NAME }}
+          WATCH_EXT_PROFILE_NAME: ${{ secrets.IOS_WATCH_EXT_PROFILE_NAME }}
+          APP_BUNDLE_ID: ${{ secrets.IOS_APP_BUNDLE_ID }}
+          SHARE_BUNDLE_ID: ${{ secrets.IOS_SHARE_BUNDLE_ID }}
+          WATCH_APP_BUNDLE_ID: ${{ secrets.IOS_WATCH_APP_BUNDLE_ID }}
+          WATCH_EXT_BUNDLE_ID: ${{ secrets.IOS_WATCH_EXT_BUNDLE_ID }}
+        run: |
+          set -euo pipefail
+          IDENTITY="${SIGN_IDENTITY:-Apple Development}"
+          cat > apps/ios/.local-signing.xcconfig <<EOF
+          OPENCLAW_CODE_SIGN_STYLE = Manual
+          OPENCLAW_CODE_SIGN_IDENTITY = ${IDENTITY}
+          OPENCLAW_DEVELOPMENT_TEAM = ${DEVELOPMENT_TEAM}
+          OPENCLAW_APP_BUNDLE_ID = ${APP_BUNDLE_ID:-ai.openclaw.ios}
+          OPENCLAW_SHARE_BUNDLE_ID = ${SHARE_BUNDLE_ID:-ai.openclaw.ios.share}
+          OPENCLAW_APP_PROFILE = ${APP_PROFILE_NAME}
+          OPENCLAW_SHARE_PROFILE = ${SHARE_PROFILE_NAME}
+          OPENCLAW_IOS_SELECTED_TEAM = ${DEVELOPMENT_TEAM}
+          OPENCLAW_WATCH_APP_BUNDLE_ID = ${WATCH_APP_BUNDLE_ID:-ai.openclaw.ios.watchkitapp}
+          OPENCLAW_WATCH_EXTENSION_BUNDLE_ID = ${WATCH_EXT_BUNDLE_ID:-ai.openclaw.ios.watchkitapp.extension}
+          OPENCLAW_WATCH_CODE_SIGN_STYLE = Manual
+          OPENCLAW_WATCH_CODE_SIGN_IDENTITY = ${IDENTITY}
+          OPENCLAW_WATCH_APP_PROFILE = ${WATCH_APP_PROFILE_NAME}
+          OPENCLAW_WATCH_EXT_PROFILE = ${WATCH_EXT_PROFILE_NAME}
+          EOF
+          # Strip leading whitespace from heredoc (YAML indentation)
+          sed -i '' 's/^          //' apps/ios/.local-signing.xcconfig
+          echo "Wrote CI signing overrides:"
+          cat apps/ios/.local-signing.xcconfig
+
+      # --- Build ---
+      - name: Build iOS app (signed)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          EXPORT_METHOD: ${{ secrets.IOS_EXPORT_METHOD }}
+          APP_PROFILE_NAME: ${{ secrets.IOS_APP_PROFILE_NAME }}
+          SHARE_PROFILE_NAME: ${{ secrets.IOS_SHARE_PROFILE_NAME }}
+          WATCH_APP_PROFILE_NAME: ${{ secrets.IOS_WATCH_APP_PROFILE_NAME }}
+          WATCH_EXT_PROFILE_NAME: ${{ secrets.IOS_WATCH_EXT_PROFILE_NAME }}
+          APP_BUNDLE_ID: ${{ secrets.IOS_APP_BUNDLE_ID }}
+          SHARE_BUNDLE_ID: ${{ secrets.IOS_SHARE_BUNDLE_ID }}
+          WATCH_APP_BUNDLE_ID: ${{ secrets.IOS_WATCH_APP_BUNDLE_ID }}
+          WATCH_EXT_BUNDLE_ID: ${{ secrets.IOS_WATCH_EXT_BUNDLE_ID }}
+          DEVELOPMENT_TEAM: ${{ secrets.IOS_TEAM_ID }}
+        run: |
+          set -euo pipefail
+
+          # Regenerate project with signing overrides in place
+          pnpm ios:gen
+          cd apps/ios
+
+          mkdir -p "$RUNNER_TEMP/export"
+
+          xcodebuild archive \
+            -project OpenClaw.xcodeproj \
+            -scheme OpenClaw \
+            -configuration Release \
+            -destination "generic/platform=iOS" \
+            -archivePath "$RUNNER_TEMP/OpenClaw.xcarchive" \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData"
+
+          APP_PATH="$RUNNER_TEMP/OpenClaw.xcarchive/Products/Applications/OpenClaw.app"
+          if [ ! -d "$APP_PATH" ]; then
+            echo "Error: Could not find archived OpenClaw.app"
+            exit 1
+          fi
+          echo "Found app at: $APP_PATH"
+
+          METHOD="${EXPORT_METHOD:-development}"
+          APP_ID="${APP_BUNDLE_ID:-ai.openclaw.ios}"
+          SHARE_ID="${SHARE_BUNDLE_ID:-ai.openclaw.ios.share}"
+          WATCH_APP_ID="${WATCH_APP_BUNDLE_ID:-ai.openclaw.ios.watchkitapp}"
+          WATCH_EXT_ID="${WATCH_EXT_BUNDLE_ID:-ai.openclaw.ios.watchkitapp.extension}"
+
+          # Write ExportOptions.plist
+          cat > "$RUNNER_TEMP/ExportOptions.plist" <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>method</key>
+            <string>${METHOD}</string>
+            <key>teamID</key>
+            <string>${DEVELOPMENT_TEAM}</string>
+            <key>signingStyle</key>
+            <string>manual</string>
+            <key>provisioningProfiles</key>
+            <dict>
+              <key>${APP_ID}</key>
+              <string>${APP_PROFILE_NAME}</string>
+              <key>${SHARE_ID}</key>
+              <string>${SHARE_PROFILE_NAME}</string>
+              <key>${WATCH_APP_ID}</key>
+              <string>${WATCH_APP_PROFILE_NAME}</string>
+              <key>${WATCH_EXT_ID}</key>
+              <string>${WATCH_EXT_PROFILE_NAME}</string>
+            </dict>
+            <key>stripSwiftSymbols</key>
+            <true/>
+            <key>compileBitcode</key>
+            <false/>
+          </dict>
+          </plist>
+          PLIST
+          # Strip leading whitespace from heredoc (YAML indentation)
+          sed -i '' 's/^          //' "$RUNNER_TEMP/ExportOptions.plist"
+
+          echo "ExportOptions.plist:"
+          cat "$RUNNER_TEMP/ExportOptions.plist"
+
+          xcodebuild -exportArchive \
+            -archivePath "$RUNNER_TEMP/OpenClaw.xcarchive" \
+            -exportPath "$RUNNER_TEMP/export" \
+            -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist"
+
+          echo "Signed IPA exported to $RUNNER_TEMP/export/"
+          ls -lh "$RUNNER_TEMP/export/"
+
+      - name: Build iOS app (unsigned, compile check)
+        if: github.event_name != 'workflow_dispatch'
         run: |
           cd apps/ios
           set -euo pipefail
 
-          # Create export directory
           mkdir -p "$RUNNER_TEMP/export"
 
-          # Archive without code signing. Use destination instead of -sdk so watchOS targets
-          # are built for watchOS while the iOS app is built for iOS.
           xcodebuild archive \
             -project OpenClaw.xcodeproj \
             -scheme OpenClaw \
@@ -70,69 +259,55 @@ jobs:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO
 
-          # Find archived .app
-          APP_PATH="$RUNNER_TEMP/OpenClaw.xcarchive/Products/Applications/OpenClaw.app"
-          if [ ! -d "$APP_PATH" ]; then
-            echo "Error: Could not find archived OpenClaw.app"
-            exit 1
-          fi
-          echo "Found app at: $APP_PATH"
+          echo "Unsigned compile check passed"
 
-          SHARE_EXT_PATH="$APP_PATH/PlugIns/OpenClawShareExtension.appex"
-          WATCH_APP_PATH="$APP_PATH/Watch/OpenClawWatchApp.app"
-          WATCH_EXT_PATH="$WATCH_APP_PATH/PlugIns/OpenClawWatchExtension.appex"
+      # --- Release (signed builds only) ---
+      - name: Create draft release
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
 
-          if [ ! -d "$SHARE_EXT_PATH" ]; then
-            echo "Error: Missing share extension in archive: $SHARE_EXT_PATH"
-            exit 1
-          fi
-
-          if [ ! -d "$WATCH_APP_PATH" ]; then
-            echo "Error: Missing watch app in archive: $WATCH_APP_PATH"
+          # Find the exported IPA
+          IPA_PATH=$(find "$RUNNER_TEMP/export" -name "*.ipa" -print -quit)
+          if [ -z "$IPA_PATH" ]; then
+            echo "Error: No IPA found in export directory"
+            ls -la "$RUNNER_TEMP/export/"
             exit 1
           fi
 
-          if [ ! -d "$WATCH_EXT_PATH" ]; then
-            echo "Error: Missing watch extension in archive: $WATCH_EXT_PATH"
-            exit 1
-          fi
+          VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" apps/ios/Sources/Info.plist)
+          BUILD=$(/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" apps/ios/Sources/Info.plist)
+          TAG="ios-v${VERSION}+${BUILD}"
+          TITLE="OpenClaw iOS ${VERSION} (${BUILD})"
+          DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
-          # Patch watch extension bundle IDs for sideloading.
-          # Sideloading tools (e.g. idevice) insert the personal team ID into the
-          # main app and watch app bundle IDs but skip the watch extension, causing
-          # AppexBundleIDNotPrefixed on install. We can't pre-bake the team ID at
-          # compile time because Xcode's ValidateEmbeddedBinary requires the extension
-          # bundle ID to be prefixed by the watch app bundle ID *during* the archive.
-          # Instead we patch the already-archived extension plist so the IPA ships
-          # with the team-ID-prefixed extension bundle ID that matches the watch app
-          # bundle ID after sideloading transforms it.
-          TEAM_ID="XCFWESW6T8"
-          WATCH_EXT_PLIST="$WATCH_EXT_PATH/Info.plist"
-          /usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier ai.openclaw.ios.${TEAM_ID}.watchkitapp.extension" "$WATCH_EXT_PLIST"
-          /usr/libexec/PlistBuddy -c "Set :NSExtension:NSExtensionAttributes:WKAppBundleIdentifier ai.openclaw.ios.${TEAM_ID}.watchkitapp" "$WATCH_EXT_PLIST"
-          echo "Patched watch extension bundle ID for sideloading (team ${TEAM_ID})"
+          # Rename IPA with version info
+          FINAL_IPA="$RUNNER_TEMP/export/OpenClaw-iOS-${VERSION}.ipa"
+          cp "$IPA_PATH" "$FINAL_IPA"
 
-          # Create IPA (unsigned) - IPA is just a zip with Payload directory
-          rm -rf "$RUNNER_TEMP/export/Payload"
-          mkdir -p "$RUNNER_TEMP/export/Payload"
-          cp -R "$APP_PATH" "$RUNNER_TEMP/export/Payload/"
-          cd "$RUNNER_TEMP/export"
-          ditto -c -k --sequesterRsrc --keepParent Payload OpenClaw-unsigned.ipa
-          zip -r OpenClaw-unsigned.zip OpenClaw-unsigned.ipa
-          rm -rf Payload
+          echo "Creating draft release: $TITLE"
+          echo "IPA: $FINAL_IPA ($(du -h "$FINAL_IPA" | cut -f1))"
 
-      - name: Upload IPA artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: OpenClaw-iOS-unsigned
-          path: ${{ runner.temp }}/export/*.zip
-          retention-days: 30
-          if-no-files-found: error
+          gh release create "$TAG" "$FINAL_IPA" \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "$TITLE" \
+            --draft \
+            --notes "iOS build ${VERSION} (${BUILD}) — $(date -u +%Y-%m-%d)"
+
+          echo "Draft release created: $TAG"
 
       - name: Build info
         run: |
           echo "Build completed successfully"
-          ls -lh "$RUNNER_TEMP/export/"
-          if [ -f "$RUNNER_TEMP/export/OpenClaw-unsigned.zip" ]; then
-            echo "Zip size: $(du -h "$RUNNER_TEMP/export/OpenClaw-unsigned.zip" | cut -f1)"
+          ls -lh "$RUNNER_TEMP/export/" 2>/dev/null || true
+
+      - name: Cleanup keychain
+        if: always()
+        run: |
+          KEYCHAIN_PATH="$RUNNER_TEMP/build.keychain-db"
+          if [ -f "$KEYCHAIN_PATH" ]; then
+            security delete-keychain "$KEYCHAIN_PATH" || true
           fi
+          rm -f "$RUNNER_TEMP/certificate.p12"
